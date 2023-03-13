@@ -6,6 +6,7 @@
         <annotation>Lookup Currency Code Data</annotation>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build>glide-sandiego-12-22-2021__patch9b-01-18-2023_01-31-2023_1707.zip</compiler_build>
         <copied_from>306df2d247ea595096fcb777746d437c</copied_from>
         <copied_from_name>Import Cost Center from SAP ECC </copied_from_name>
         <description/>
@@ -15,7 +16,6 @@
         <name>Fetch cost centers from SAP ECC</name>
         <natlang/>
         <outputs/>
-        <pre_compiled>false</pre_compiled>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_flow_2949bc1547321d1086887562846d43a4</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-03 13:44:49</sys_updated_on>
+        <sys_updated_on>2023-03-05 07:22:14</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=2949bc1547321d1086887562846d43a4"/>
@@ -90,7 +90,6 @@
         <element>service_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -137,7 +136,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -173,7 +171,6 @@
         <element>connection_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -220,7 +217,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -257,7 +253,6 @@
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -304,7 +299,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -340,7 +334,6 @@
         <element>error</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -387,7 +380,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -400,6 +392,7 @@
         <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
         <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">2949bc1547321d1086887562846d43a4</flow>
         <order>18</order>
@@ -489,6 +482,7 @@
         <action_type display_value="Segregate Cost Center Data For Text">21974cde8715e910a3e3cbb4dabb3581</action_type>
         <action_type_parent/>
         <comment>parse the payload received from Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">2949bc1547321d1086887562846d43a4</flow>
         <order>36</order>
@@ -537,6 +531,7 @@
         <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">2949bc1547321d1086887562846d43a4</flow>
         <order>34</order>
@@ -663,6 +658,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">2949bc1547321d1086887562846d43a4</flow>
         <order>1</order>
@@ -725,6 +721,7 @@
         <action_type display_value="Get Source Property Value">e9427c9f47265d5096fcb777746d43bd</action_type>
         <action_type_parent/>
         <comment>returns "query" result from integration service table</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">2949bc1547321d1086887562846d43a4</flow>
         <order>2</order>
@@ -786,6 +783,7 @@
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent/>
         <comment>convert query string to query array object</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">2949bc1547321d1086887562846d43a4</flow>
         <order>33</order>
@@ -824,6 +822,7 @@
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent/>
         <comment>convert query string to query array object</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">2949bc1547321d1086887562846d43a4</flow>
         <order>4</order>
@@ -860,6 +859,7 @@
         <action_type display_value="Segregate Cost Center Response">5612c71a47ea595096fcb777746d4379</action_type>
         <action_type_parent/>
         <comment>parse the payload received from Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">2949bc1547321d1086887562846d43a4</flow>
         <order>13</order>
@@ -934,6 +934,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">2949bc1547321d1086887562846d43a4</flow>
         <order>44</order>
@@ -1004,10 +1005,10 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=8e0ce0ec8770e510a3e3cbb4dabb3502"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
         <action_type_parent/>
         <comment>create input query for Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">2949bc1547321d1086887562846d43a4</flow>
         <order>32</order>
@@ -1035,29 +1036,16 @@
         <sys_updated_by>Varun</sys_updated_by>
         <sys_updated_on>2023-01-31 04:47:07</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=98b1935c87f8a510a3e3cbb4dabb35cd"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>98b1935c87f8a510a3e3cbb4dabb35cd</id>
-        <sys_created_by>Varun</sys_created_by>
-        <sys_created_on>2023-01-31 04:47:07</sys_created_on>
-        <sys_id>a0b1935c87f8a510a3e3cbb4dabb35cf</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>Varun</sys_updated_by>
-        <sys_updated_on>2023-02-06 10:47:47</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_QUERY_TABLE":"{{flow_variable.table_name_2}}","IV_DELIMITER":"{{flow_variable.delimiter}}","IV_ROWCOUNT":"{{flow_variable.row_count}}","IV_ROWSKIPS":"{{flow_variable.row_skips}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=98b1935c87f8a510a3e3cbb4dabb35cd"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=98b1935c87f8a510a3e3cbb4dabb35cd"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
         <action_type_parent/>
         <comment>create input query for Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">2949bc1547321d1086887562846d43a4</flow>
         <order>9</order>
@@ -1085,21 +1073,8 @@
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-11-20 09:54:34</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=9a95655547d7911096fcb777746d43fa"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>9a95655547d7911096fcb777746d43fa</id>
-        <sys_created_by>Midhat</sys_created_by>
-        <sys_created_on>2022-11-20 09:54:34</sys_created_on>
-        <sys_id>5e95655547d7911096fcb777746d43fb</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_updated_by>Varun</sys_updated_by>
-        <sys_updated_on>2023-02-06 16:11:15</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_DELIMITER":"{{flow_variable.delimiter}}","IV_QUERY_TABLE":"{{flow_variable.table_name}}","IV_ROWCOUNT":"{{flow_variable.row_count}}","IV_ROWSKIPS":"{{flow_variable.row_skips}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=9a95655547d7911096fcb777746d43fa"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=9a95655547d7911096fcb777746d43fa"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -1108,6 +1083,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">2949bc1547321d1086887562846d43a4</flow>
         <order>41</order>
@@ -1170,6 +1146,7 @@
         <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
         <action_type_parent display_value="Execute RFC">006b07ffc7c03010678d208c95c26001</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">2949bc1547321d1086887562846d43a4</flow>
         <order>11</order>
@@ -1296,6 +1273,7 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">2949bc1547321d1086887562846d43a4</flow>
         <order>6</order>
@@ -1874,7 +1852,7 @@
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
-        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <logic_definition display_value="">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
         <order>0</order>
         <outputs_assigned/>
         <outputs_to_assign/>
@@ -3624,7 +3602,6 @@
         <element>delimiter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3671,7 +3648,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3707,7 +3683,6 @@
         <element>row_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3754,7 +3729,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3790,7 +3764,6 @@
         <element>total_rows</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3837,7 +3810,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3873,7 +3845,6 @@
         <element>stagingcount</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3920,7 +3891,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3956,7 +3926,6 @@
         <element>query</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4003,7 +3972,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4039,7 +4007,6 @@
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4086,7 +4053,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4122,7 +4088,6 @@
         <element>row_skips</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4169,7 +4134,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4205,7 +4169,6 @@
         <element>table_name_2</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4252,7 +4215,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4275,7 +4237,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2949bc1547321d1086887562846d43a4_service_record_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-10-26 10:09:33</sys_updated_on>
         <url/>
@@ -4298,7 +4260,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_2949bc1547321d1086887562846d43a4_connection_name_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-11-20 09:54:23</sys_updated_on>
         <url/>
@@ -4323,7 +4285,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_2949bc1547321d1086887562846d43a4_error_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-10-26 10:09:34</sys_updated_on>
         <url/>
@@ -4346,7 +4308,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_2949bc1547321d1086887562846d43a4_status_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-10-26 10:09:34</sys_updated_on>
         <url/>
@@ -4501,7 +4463,6 @@
         <element>service_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4548,7 +4509,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4584,7 +4544,6 @@
         <element>connection_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4631,7 +4590,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4668,7 +4626,6 @@
         <element>error</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4715,7 +4672,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4751,7 +4707,6 @@
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4798,7 +4753,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4811,6 +4765,7 @@
         <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
         <action_type_parent display_value="Execute RFC">006b07ffc7c03010678d208c95c26001</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">45101ae947765d1086887562846d4393</flow>
         <order>11</order>
@@ -4937,6 +4892,7 @@
         <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
         <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">45101ae947765d1086887562846d4393</flow>
         <order>18</order>
@@ -5012,6 +4968,7 @@
         <action_type display_value="Get Source Property Value">e9427c9f47265d5096fcb777746d43bd</action_type>
         <action_type_parent display_value="Get Source Property Value">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
         <comment>returns "query" result from integration service table</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">45101ae947765d1086887562846d4393</flow>
         <order>2</order>
@@ -5074,6 +5031,7 @@
         <action_type display_value="Segregate Cost Center Data For Text">21974cde8715e910a3e3cbb4dabb3581</action_type>
         <action_type_parent display_value="Segregate Cost Center Data For Text">97b64c9e8715e910a3e3cbb4dabb35ff</action_type_parent>
         <comment>parse the payload received from Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">45101ae947765d1086887562846d4393</flow>
         <order>36</order>
@@ -5118,10 +5076,10 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=43a9d4d28795e910a3e3cbb4dabb35a9"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
-        <action_type_parent display_value="Generate Encoded Query">b7eba03bc70130100409e122c7c26023</action_type_parent>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type_parent display_value="">b7eba03bc70130100409e122c7c26023</action_type_parent>
         <comment>create input query for Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">45101ae947765d1086887562846d4393</flow>
         <order>9</order>
@@ -5149,21 +5107,8 @@
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-11-20 10:29:40</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=54ade59d47d7911096fcb777746d438f"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>54ade59d47d7911096fcb777746d438f</id>
-        <sys_created_by>Midhat</sys_created_by>
-        <sys_created_on>2022-11-20 10:29:40</sys_created_on>
-        <sys_id>acade59d47d7911096fcb777746d43f3</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_updated_by>Varun</sys_updated_by>
-        <sys_updated_on>2023-02-06 16:11:47</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_DELIMITER":"{{flow_variable.delimiter}}","IV_QUERY_TABLE":"{{flow_variable.table_name}}","IV_ROWCOUNT":"{{flow_variable.row_count}}","IV_ROWSKIPS":"{{flow_variable.row_skips}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=54ade59d47d7911096fcb777746d438f"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=54ade59d47d7911096fcb777746d438f"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -5172,6 +5117,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">45101ae947765d1086887562846d4393</flow>
         <order>41</order>
@@ -5230,10 +5176,10 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6badddf887342910a3e3cbb4dabb357c"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
-        <action_type_parent display_value="Generate Encoded Query">b7eba03bc70130100409e122c7c26023</action_type_parent>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type_parent display_value="">b7eba03bc70130100409e122c7c26023</action_type_parent>
         <comment>create input query for Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">45101ae947765d1086887562846d4393</flow>
         <order>32</order>
@@ -5261,21 +5207,8 @@
         <sys_updated_by>Varun</sys_updated_by>
         <sys_updated_on>2023-02-01 09:37:08</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=6eadddf887342910a3e3cbb4dabb351e"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>6eadddf887342910a3e3cbb4dabb351e</id>
-        <sys_created_by>Varun</sys_created_by>
-        <sys_created_on>2023-02-01 09:37:08</sys_created_on>
-        <sys_id>aeadddf887342910a3e3cbb4dabb351f</sys_id>
-        <sys_mod_count>1</sys_mod_count>
-        <sys_updated_by>Varun</sys_updated_by>
-        <sys_updated_on>2023-02-06 10:57:16</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_QUERY_TABLE":"{{flow_variable.table_name_2}}","IV_DELIMITER":"{{flow_variable.delimiter}}","IV_ROWCOUNT":"{{flow_variable.row_count}}","IV_ROWSKIPS":"{{flow_variable.row_skips}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=6eadddf887342910a3e3cbb4dabb351e"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=6eadddf887342910a3e3cbb4dabb351e"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -5284,6 +5217,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">45101ae947765d1086887562846d4393</flow>
         <order>1</order>
@@ -5345,6 +5279,7 @@
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent display_value="Generate query for IT Options">65fadb48872f111013ef52c73cbb356a</action_type_parent>
         <comment>convert query string to query array object</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">45101ae947765d1086887562846d4393</flow>
         <order>33</order>
@@ -5383,6 +5318,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">45101ae947765d1086887562846d4393</flow>
         <order>44</order>
@@ -5457,6 +5393,7 @@
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent display_value="Generate query for IT Options">65fadb48872f111013ef52c73cbb356a</action_type_parent>
         <comment>convert query string to query array object</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">45101ae947765d1086887562846d4393</flow>
         <order>4</order>
@@ -5493,6 +5430,7 @@
         <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
         <action_type_parent display_value="Execute RFC">006b07ffc7c03010678d208c95c26001</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">45101ae947765d1086887562846d4393</flow>
         <order>34</order>
@@ -5619,6 +5557,7 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">45101ae947765d1086887562846d4393</flow>
         <order>6</order>
@@ -5681,6 +5620,7 @@
         <action_type display_value="Segregate Cost Center Response">5612c71a47ea595096fcb777746d4379</action_type>
         <action_type_parent display_value="Segregate Cost Center Response">a12eb21647ea595096fcb777746d43c1</action_type_parent>
         <comment>parse the payload received from Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP ECC">45101ae947765d1086887562846d4393</flow>
         <order>13</order>
@@ -7893,7 +7833,7 @@
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
-        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <logic_definition display_value="">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
         <order>0</order>
         <outputs_assigned/>
         <outputs_to_assign/>
@@ -7995,7 +7935,6 @@
         <element>row_skips</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8042,7 +7981,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8078,7 +8016,6 @@
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8125,7 +8062,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8161,7 +8097,6 @@
         <element>row_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8208,7 +8143,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8244,7 +8178,6 @@
         <element>stagingcount</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8291,7 +8224,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8327,7 +8259,6 @@
         <element>total_rows</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8374,7 +8305,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8410,7 +8340,6 @@
         <element>table_name_2</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8457,7 +8386,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8493,7 +8421,6 @@
         <element>query</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8540,7 +8467,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8576,7 +8502,6 @@
         <element>delimiter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8623,7 +8548,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8646,7 +8570,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_45101ae947765d1086887562846d4393_service_record_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-10-27 11:07:17</sys_updated_on>
         <url/>
@@ -8669,7 +8593,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_45101ae947765d1086887562846d4393_connection_name_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-11-20 10:29:29</sys_updated_on>
         <url/>
@@ -8694,7 +8618,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_45101ae947765d1086887562846d4393_error_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-10-27 11:07:18</sys_updated_on>
         <url/>
@@ -8717,7 +8641,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_45101ae947765d1086887562846d4393_status_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-10-27 11:07:19</sys_updated_on>
         <url/>
@@ -8766,9 +8690,8 @@
             <value>Error</value>
         </sys_choice>
     </sys_choice>
-    <sys_hub_flow action="UPDATE">
+    <sys_hub_flow action="update">
         <sys_id>2949bc1547321d1086887562846d43a4</sys_id>
         <latest_snapshot>45101ae947765d1086887562846d4393</latest_snapshot>
-        <compiler_build>glide-sandiego-12-22-2021__patch9b-01-18-2023_01-31-2023_1707.zip</compiler_build>
     </sys_hub_flow>
 </record_update>

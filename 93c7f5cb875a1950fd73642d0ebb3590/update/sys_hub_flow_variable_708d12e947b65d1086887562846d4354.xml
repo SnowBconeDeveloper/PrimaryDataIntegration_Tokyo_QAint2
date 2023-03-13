@@ -38,7 +38,7 @@
         <label>Count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Fetch FX rates from SAP ECC">c08d0c7847aa915096fcb777746d4393</model>
+        <model display_value="">c08d0c7847aa915096fcb777746d4393</model>
         <model_id>c08d0c7847aa915096fcb777746d4393</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_c08d0c7847aa915096fcb777746d4393</name>

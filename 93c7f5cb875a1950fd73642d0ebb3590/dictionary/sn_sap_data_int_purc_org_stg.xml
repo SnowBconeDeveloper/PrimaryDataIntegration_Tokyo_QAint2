@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?><database>
-    <element db_object_id="9c6efd79c3d1e11068187addd40131c7" extends="sys_import_set_row" label="Purchase Organizations" max_length="40" name="sn_sap_data_int_purc_org_stg" type="collection">
+    <element extends="sys_import_set_row" label="Purchase Organizations" max_length="40" name="sn_sap_data_int_purc_org_stg" sizeclass="0" type="collection">
         <element attributes="edge_encryption_enabled=true" label="Calculation Schema for Market Price" max_length="6" name="calculation_schema_for_market_price" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Client" max_length="3" name="client" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Company Code" max_length="4" name="company_code" type="string"/>

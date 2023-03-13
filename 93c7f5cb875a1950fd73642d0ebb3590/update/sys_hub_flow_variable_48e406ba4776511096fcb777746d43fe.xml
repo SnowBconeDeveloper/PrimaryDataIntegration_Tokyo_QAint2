@@ -38,7 +38,7 @@
         <label>Total Count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Ledger Account Master data from SAP">f08dfab9473ad51096fcb777746d4395</model>
+        <model display_value="">f08dfab9473ad51096fcb777746d4395</model>
         <model_id>f08dfab9473ad51096fcb777746d4395</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_variable_f08dfab9473ad51096fcb777746d4395</name>

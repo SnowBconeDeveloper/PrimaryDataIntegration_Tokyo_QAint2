@@ -6,6 +6,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build/>
         <copied_from>454cd2c953711010a86dddeeff7b122a</copied_from>
         <copied_from_name>Template Integration Service</copied_from_name>
         <description/>
@@ -35,8 +36,8 @@
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_flow_93cf824987e25190fd73642d0ebb35c6</sys_update_name>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2022-10-21 14:22:27</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-05 07:24:37</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=93cf824987e25190fd73642d0ebb35c6"/>
@@ -471,6 +472,7 @@
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Template Integration Service">93cf824987e25190fd73642d0ebb35c6</flow>
         <order>1</order>
@@ -1189,6 +1191,7 @@
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Template Integration Service">ac509e4987e25190fd73642d0ebb359f</flow>
         <order>1</order>
@@ -1419,9 +1422,8 @@
             <value>Error</value>
         </sys_choice>
     </sys_choice>
-    <sys_hub_flow action="UPDATE">
+    <sys_hub_flow action="update">
         <sys_id>93cf824987e25190fd73642d0ebb35c6</sys_id>
         <latest_snapshot>ac509e4987e25190fd73642d0ebb359f</latest_snapshot>
-        <compiler_build/>
     </sys_hub_flow>
 </record_update>
