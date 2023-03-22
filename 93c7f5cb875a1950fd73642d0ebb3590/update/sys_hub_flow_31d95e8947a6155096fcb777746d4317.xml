@@ -6,6 +6,7 @@
         <annotation>Lookup Currency Code Data</annotation>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build>glide-sandiego-12-22-2021__patch9b-01-18-2023_01-31-2023_1707.zip</compiler_build>
         <copied_from>185d4b584766515096fcb777746d43e4</copied_from>
         <copied_from_name>Lookup Currency Code Data</copied_from_name>
         <description/>
@@ -35,8 +36,8 @@
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_flow_31d95e8947a6155096fcb777746d4317</sys_update_name>
-        <sys_updated_by>varun</sys_updated_by>
-        <sys_updated_on>2023-02-22 09:46:34</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-05 07:22:44</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=31d95e8947a6155096fcb777746d4317"/>
@@ -391,6 +392,7 @@
         <action_type display_value="Get Source Property Value">e9427c9f47265d5096fcb777746d43bd</action_type>
         <action_type_parent/>
         <comment>returns "query" result from integration service table</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchase organizations from SAP ECC">31d95e8947a6155096fcb777746d4317</flow>
         <order>2</order>
@@ -466,6 +468,7 @@
         <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
         <action_type_parent display_value="Execute RFC">006b07ffc7c03010678d208c95c26001</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchase organizations from SAP ECC">31d95e8947a6155096fcb777746d4317</flow>
         <order>11</order>
@@ -592,6 +595,7 @@
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent/>
         <comment>convert query string to query array object</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchase organizations from SAP ECC">31d95e8947a6155096fcb777746d4317</flow>
         <order>4</order>
@@ -628,6 +632,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchase organizations from SAP ECC">31d95e8947a6155096fcb777746d4317</flow>
         <order>1</order>
@@ -686,10 +691,10 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=39ef18fc4753511096fcb777746d4384"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchase organizations from SAP ECC">31d95e8947a6155096fcb777746d4317</flow>
         <order>9</order>
@@ -717,21 +722,8 @@
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-11-18 15:33:12</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=4bef18fc4753511096fcb777746d43db"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>4bef18fc4753511096fcb777746d43db</id>
-        <sys_created_by>Midhat</sys_created_by>
-        <sys_created_on>2022-11-18 15:33:12</sys_created_on>
-        <sys_id>0fef18fc4753511096fcb777746d43dc</sys_id>
-        <sys_mod_count>7</sys_mod_count>
-        <sys_updated_by>Varun</sys_updated_by>
-        <sys_updated_on>2022-12-27 08:46:34</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_DELIMITER":"{{flow_variable.delimiter}}","IV_QUERY_TABLE":"{{flow_variable.table_name}}","IV_ROWCOUNT":"{{flow_variable.row_count}}","IV_ROWSKIPS":"{{flow_variable.row_skips}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=4bef18fc4753511096fcb777746d43db"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=4bef18fc4753511096fcb777746d43db"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -740,6 +732,7 @@
         <action_type display_value="Segregate Purchasing Organisation Response">31d0c4f847df111096fcb777746d4307</action_type>
         <action_type_parent/>
         <comment>parse the payload received from Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchase organizations from SAP ECC">31d95e8947a6155096fcb777746d4317</flow>
         <order>13</order>
@@ -828,6 +821,7 @@
         <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchase organizations from SAP ECC">31d95e8947a6155096fcb777746d4317</flow>
         <order>18</order>
@@ -890,6 +884,7 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchase organizations from SAP ECC">31d95e8947a6155096fcb777746d4317</flow>
         <order>6</order>
@@ -2151,7 +2146,7 @@
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
-        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <logic_definition display_value="">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
         <order>0</order>
         <outputs_assigned/>
         <outputs_to_assign/>
@@ -3030,7 +3025,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_31d95e8947a6155096fcb777746d4317_service_record_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-10-13 12:17:16</sys_updated_on>
         <url/>
@@ -3053,7 +3048,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_31d95e8947a6155096fcb777746d4317_connection_name_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-10-25 08:41:17</sys_updated_on>
         <url/>
@@ -3078,7 +3073,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_31d95e8947a6155096fcb777746d4317_error_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-10-13 12:17:17</sys_updated_on>
         <url/>
@@ -3101,7 +3096,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_31d95e8947a6155096fcb777746d4317_status_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-10-13 12:17:17</sys_updated_on>
         <url/>
@@ -3558,6 +3553,7 @@
         <action_type display_value="Segregate Purchasing Organisation Response">31d0c4f847df111096fcb777746d4307</action_type>
         <action_type_parent display_value="Segregate Purchasing Organisation Response">3bc72ba0479f111096fcb777746d43dc</action_type_parent>
         <comment>parse the payload received from Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchase organizations from SAP ECC">b8b08a1647e6595096fcb777746d4368</flow>
         <order>13</order>
@@ -3632,6 +3628,7 @@
         <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
         <action_type_parent display_value="Execute RFC">006b07ffc7c03010678d208c95c26001</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchase organizations from SAP ECC">b8b08a1647e6595096fcb777746d4368</flow>
         <order>11</order>
@@ -3758,6 +3755,7 @@
         <action_type display_value="Get Source Property Value">e9427c9f47265d5096fcb777746d43bd</action_type>
         <action_type_parent display_value="Get Source Property Value">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
         <comment>returns "query" result from integration service table</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchase organizations from SAP ECC">b8b08a1647e6595096fcb777746d4368</flow>
         <order>2</order>
@@ -3829,10 +3827,10 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=7afba3cc47235110cb762430a46d43e6"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
-        <action_type_parent display_value="Generate Encoded Query">b7eba03bc70130100409e122c7c26023</action_type_parent>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type_parent display_value="">b7eba03bc70130100409e122c7c26023</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchase organizations from SAP ECC">b8b08a1647e6595096fcb777746d4368</flow>
         <order>9</order>
@@ -3860,21 +3858,8 @@
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-11-19 10:44:22</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=8e67648d4713511096fcb777746d4347"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>8e67648d4713511096fcb777746d4347</id>
-        <sys_created_by>Midhat</sys_created_by>
-        <sys_created_on>2022-11-19 10:44:22</sys_created_on>
-        <sys_id>ce67648d4713511096fcb777746d4348</sys_id>
-        <sys_mod_count>5</sys_mod_count>
-        <sys_updated_by>Varun</sys_updated_by>
-        <sys_updated_on>2022-12-27 10:00:58</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_DELIMITER":"{{flow_variable.delimiter}}","IV_QUERY_TABLE":"{{flow_variable.table_name}}","IV_ROWCOUNT":"{{flow_variable.row_count}}","IV_ROWSKIPS":"{{flow_variable.row_skips}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=8e67648d4713511096fcb777746d4347"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=8e67648d4713511096fcb777746d4347"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -3883,6 +3868,7 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchase organizations from SAP ECC">b8b08a1647e6595096fcb777746d4368</flow>
         <order>6</order>
@@ -3958,6 +3944,7 @@
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent display_value="Generate query for IT Options">65fadb48872f111013ef52c73cbb356a</action_type_parent>
         <comment>convert query string to query array object</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchase organizations from SAP ECC">b8b08a1647e6595096fcb777746d4368</flow>
         <order>4</order>
@@ -3994,6 +3981,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchase organizations from SAP ECC">b8b08a1647e6595096fcb777746d4368</flow>
         <order>1</order>
@@ -4056,6 +4044,7 @@
         <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
         <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchase organizations from SAP ECC">b8b08a1647e6595096fcb777746d4368</flow>
         <order>18</order>
@@ -4999,7 +4988,7 @@
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
-        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <logic_definition display_value="">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
         <order>0</order>
         <outputs_assigned/>
         <outputs_to_assign/>
@@ -6183,7 +6172,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_b8b08a1647e6595096fcb777746d4368_service_record_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-10-17 07:39:51</sys_updated_on>
         <url/>
@@ -6206,7 +6195,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_b8b08a1647e6595096fcb777746d4368_connection_name_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-10-25 08:42:35</sys_updated_on>
         <url/>
@@ -6231,7 +6220,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_b8b08a1647e6595096fcb777746d4368_error_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-10-17 07:39:51</sys_updated_on>
         <url/>
@@ -6254,7 +6243,7 @@
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_b8b08a1647e6595096fcb777746d4368_status_en</sys_update_name>
         <sys_updated_by>Midhat</sys_updated_by>
         <sys_updated_on>2022-10-17 07:39:53</sys_updated_on>
         <url/>
@@ -6303,9 +6292,8 @@
             <value>Error</value>
         </sys_choice>
     </sys_choice>
-    <sys_hub_flow action="UPDATE">
+    <sys_hub_flow action="update">
         <sys_id>31d95e8947a6155096fcb777746d4317</sys_id>
         <latest_snapshot>b8b08a1647e6595096fcb777746d4368</latest_snapshot>
-        <compiler_build>glide-sandiego-12-22-2021__patch9b-01-18-2023_01-31-2023_1707.zip</compiler_build>
     </sys_hub_flow>
 </record_update>

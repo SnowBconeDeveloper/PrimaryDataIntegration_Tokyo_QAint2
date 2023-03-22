@@ -38,7 +38,7 @@
         <label>Count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Fetch currencies from SAP ECC">b3bcd66947b65d1086887562846d43b3</model>
+        <model display_value="">b3bcd66947b65d1086887562846d43b3</model>
         <model_id>b3bcd66947b65d1086887562846d43b3</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_b3bcd66947b65d1086887562846d43b3</name>
