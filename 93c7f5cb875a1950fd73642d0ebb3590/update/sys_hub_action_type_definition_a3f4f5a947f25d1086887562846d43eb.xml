@@ -8,6 +8,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build>glide-tokyo-07-08-2022__patch6-hotfix1-02-01-2023_02-02-2023_0949.zip</compiler_build>
         <copied_from>a5e0987c47aa915096fcb777746d4394</copied_from>
         <copied_from_name>Segregate FX Exchange Response</copied_from_name>
         <description/>
@@ -19,7 +20,6 @@
         <natlang/>
         <outputs/>
         <outputs/>
-        <pre_compiled>false</pre_compiled>
         <state>published</state>
         <sys_class_name>sys_hub_action_type_definition</sys_class_name>
         <sys_created_by>shreenag.araga@snc</sys_created_by>
@@ -34,8 +34,8 @@
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_action_type_definition_a3f4f5a947f25d1086887562846d43eb</sys_update_name>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-03-23 11:59:37</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-23 13:09:38</sys_updated_on>
         <system_level>false</system_level>
         <type/>
     </sys_hub_action_type_definition>
@@ -312,7 +312,6 @@
         <element>delimiter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -359,7 +358,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -395,7 +393,6 @@
         <element>json_string</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -442,7 +439,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -479,7 +475,6 @@
         <element>fx_data</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -526,7 +521,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -562,7 +556,6 @@
         <element>total_rows</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -609,7 +602,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -694,7 +686,6 @@
         <element>json_string</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -741,7 +732,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -778,7 +768,6 @@
         <element>delimeter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -825,7 +814,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -864,7 +852,6 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -912,7 +899,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -951,7 +937,6 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -999,7 +984,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1038,7 +1022,6 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1086,7 +1069,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1125,7 +1107,6 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1173,7 +1154,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1662,7 +1642,6 @@
         <element>json_string</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1709,7 +1688,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1745,7 +1723,6 @@
         <element>delimiter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1792,7 +1769,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1829,7 +1805,6 @@
         <element>total_rows</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1876,7 +1851,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1912,7 +1886,6 @@
         <element>fx_data</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1959,7 +1932,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2044,7 +2016,6 @@
         <element>delimeter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2091,7 +2062,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2128,7 +2098,6 @@
         <element>json_string</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2175,7 +2144,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2214,7 +2182,6 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2262,7 +2229,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2301,7 +2267,6 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2349,7 +2314,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2388,7 +2352,6 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2436,7 +2399,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2475,7 +2437,6 @@
         <element_prototype/>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2523,7 +2484,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2698,9 +2658,8 @@
         <url_target/>
     </sys_documentation>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_action_output_b2c6352d47f25d1086887562846d43c6"/>
-    <sys_hub_action_type_definition action="UPDATE">
+    <sys_hub_action_type_definition action="update">
         <sys_id>a3f4f5a947f25d1086887562846d43eb</sys_id>
         <latest_snapshot>b2c6352d47f25d1086887562846d43c6</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch6-hotfix1-02-01-2023_02-02-2023_0949.zip</compiler_build>
     </sys_hub_action_type_definition>
 </record_update>

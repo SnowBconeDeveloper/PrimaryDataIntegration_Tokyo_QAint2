@@ -6,6 +6,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build>glide-tokyo-07-08-2022__patch6-hotfix1-02-01-2023_02-02-2023_0949.zip</compiler_build>
         <copied_from>3b98d190875e1d10fd73642d0ebb358f</copied_from>
         <copied_from_name>Transform Job Records</copied_from_name>
         <description/>
@@ -15,7 +16,6 @@
         <name>Transform Job Records</name>
         <natlang/>
         <outputs/>
-        <pre_compiled>false</pre_compiled>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_flow_194cf0b8872edd50fd73642d0ebb35a6</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-09 13:54:17</sys_updated_on>
+        <sys_updated_on>2023-03-13 10:34:59</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=194cf0b8872edd50fd73642d0ebb35a6"/>
@@ -89,7 +89,6 @@
         <element>job_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -136,7 +135,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -150,6 +148,7 @@
         <action_type display_value="Transform Import Set">91ef7cfc872edd50fd73642d0ebb3510</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Transform Job Records">194cf0b8872edd50fd73642d0ebb35a6</flow>
         <order>10</order>
@@ -186,6 +185,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Transform Job Records">194cf0b8872edd50fd73642d0ebb35a6</flow>
         <order>7</order>
@@ -287,6 +287,7 @@
         <action_type display_value="Get Service Job Tracker Import Sets">3abcacb087eadd50fd73642d0ebb358a</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Transform Job Records">194cf0b8872edd50fd73642d0ebb35a6</flow>
         <order>8</order>
@@ -323,6 +324,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Transform Job Records">194cf0b8872edd50fd73642d0ebb35a6</flow>
         <order>12</order>
@@ -424,6 +426,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Transform Job Records">194cf0b8872edd50fd73642d0ebb35a6</flow>
         <order>11</order>
@@ -525,6 +528,7 @@
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Transform Job Records">194cf0b8872edd50fd73642d0ebb35a6</flow>
         <order>1</order>
@@ -561,6 +565,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Transform Job Records">194cf0b8872edd50fd73642d0ebb35a6</flow>
         <order>4</order>
@@ -623,6 +628,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Transform Job Records">194cf0b8872edd50fd73642d0ebb35a6</flow>
         <order>2</order>
@@ -999,7 +1005,6 @@
         <element>job_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1046,7 +1051,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1060,6 +1064,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Transform Job Records">9fa0c170876edd50fd73642d0ebb35b8</flow>
         <order>2</order>
@@ -1122,6 +1127,7 @@
         <action_type display_value="Log">5bc1bcc6531003003bf1d9109ec587d4</action_type>
         <action_type_parent display_value="Log">0e0ae8c2531003003bf1d9109ec587c8</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Transform Job Records">9fa0c170876edd50fd73642d0ebb35b8</flow>
         <order>1</order>
@@ -1158,6 +1164,7 @@
         <action_type display_value="Get Service Job Tracker Import Sets">3abcacb087eadd50fd73642d0ebb358a</action_type>
         <action_type_parent display_value="Get Service Job Tracker Import Sets">669aa43087eadd50fd73642d0ebb3529</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Transform Job Records">9fa0c170876edd50fd73642d0ebb35b8</flow>
         <order>8</order>
@@ -1194,6 +1201,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Transform Job Records">9fa0c170876edd50fd73642d0ebb35b8</flow>
         <order>12</order>
@@ -1295,6 +1303,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Transform Job Records">9fa0c170876edd50fd73642d0ebb35b8</flow>
         <order>11</order>
@@ -1396,6 +1405,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Transform Job Records">9fa0c170876edd50fd73642d0ebb35b8</flow>
         <order>4</order>
@@ -1458,6 +1468,7 @@
         <action_type display_value="Transform Import Set">91ef7cfc872edd50fd73642d0ebb3510</action_type>
         <action_type_parent display_value="Transform Import Set">12bf78fc872edd50fd73642d0ebb3567</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Transform Job Records">9fa0c170876edd50fd73642d0ebb35b8</flow>
         <order>10</order>
@@ -1494,6 +1505,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Transform Job Records">9fa0c170876edd50fd73642d0ebb35b8</flow>
         <order>7</order>
@@ -1804,9 +1816,8 @@
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_input_9fa0c170876edd50fd73642d0ebb35b8"/>
     <sys_documentation action="delete_multiple" query="name=var__m_sys_hub_flow_output_9fa0c170876edd50fd73642d0ebb35b8"/>
     <sys_choice action="delete_multiple" query="name=var__m_sys_hub_flow_output_9fa0c170876edd50fd73642d0ebb35b8"/>
-    <sys_hub_flow action="UPDATE">
+    <sys_hub_flow action="update">
         <sys_id>194cf0b8872edd50fd73642d0ebb35a6</sys_id>
         <latest_snapshot>9fa0c170876edd50fd73642d0ebb35b8</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch6-hotfix1-02-01-2023_02-02-2023_0949.zip</compiler_build>
     </sys_hub_flow>
 </record_update>

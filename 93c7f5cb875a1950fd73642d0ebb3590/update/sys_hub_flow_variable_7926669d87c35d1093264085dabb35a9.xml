@@ -38,7 +38,7 @@
         <label>Input Count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Retrieve Vendors from SAP ECC">bc42629987c35d1093264085dabb354b</model>
+        <model display_value="">bc42629987c35d1093264085dabb354b</model>
         <model_id>bc42629987c35d1093264085dabb354b</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_variable_bc42629987c35d1093264085dabb354b</name>

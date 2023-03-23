@@ -38,7 +38,7 @@
         <label>Total Count</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Retrieve Ledger Account">b56b838f47ba911096fcb777746d4320</model>
+        <model display_value="">b56b838f47ba911096fcb777746d4320</model>
         <model_id>b56b838f47ba911096fcb777746d4320</model_id>
         <model_table>sys_hub_flow</model_table>
         <name>var__m_sys_hub_flow_variable_b56b838f47ba911096fcb777746d4320</name>

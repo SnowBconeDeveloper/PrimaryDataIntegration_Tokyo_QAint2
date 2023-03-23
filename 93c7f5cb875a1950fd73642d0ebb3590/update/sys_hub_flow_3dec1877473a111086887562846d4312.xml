@@ -6,6 +6,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build>glide-sandiego-12-22-2021__patch9a-12-12-2022_01-04-2023_0931.zip</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -28,15 +29,15 @@
         <sys_domain>global</sys_domain>
         <sys_domain_path>/</sys_domain_path>
         <sys_id>3dec1877473a111086887562846d4312</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>0</sys_mod_count>
         <sys_name>Fetch purchasing groups from SAP ECC</sys_name>
         <sys_overrides/>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_flow_3dec1877473a111086887562846d4312</sys_update_name>
-        <sys_updated_by>Krishna</sys_updated_by>
-        <sys_updated_on>2023-02-28 09:38:03</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-05 07:23:37</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=3dec1877473a111086887562846d4312"/>
@@ -391,6 +392,7 @@
         <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchasing groups from SAP ECC">3dec1877473a111086887562846d4312</flow>
         <order>11</order>
@@ -517,6 +519,7 @@
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent/>
         <comment>convert query string to query array object</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchasing groups from SAP ECC">3dec1877473a111086887562846d4312</flow>
         <order>4</order>
@@ -553,6 +556,7 @@
         <action_type display_value="Segregate Purchasing Group Response">4d597588474f511086887562846d43f8</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchasing groups from SAP ECC">3dec1877473a111086887562846d4312</flow>
         <order>13</order>
@@ -611,10 +615,10 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=4a65ecc847db155096fcb777746d438f"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchasing groups from SAP ECC">3dec1877473a111086887562846d4312</flow>
         <order>9</order>
@@ -642,21 +646,8 @@
         <sys_updated_by>krishna</sys_updated_by>
         <sys_updated_on>2022-11-19 08:59:47</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=717f4001471f111086887562846d43f9"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>717f4001471f111086887562846d43f9</id>
-        <sys_created_by>krishna</sys_created_by>
-        <sys_created_on>2022-11-19 08:59:47</sys_created_on>
-        <sys_id>c27f4001471f111086887562846d43fa</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_updated_by>krishna</sys_updated_by>
-        <sys_updated_on>2022-12-27 02:09:33</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_DELIMITER":"{{flow_variable.delimiter}}","IV_ROWCOUNT":"{{flow_variable.row_count}}","IV_QUERY_TABLE":"{{flow_variable.table_name}}","IV_ROWSKIPS﻿":"{{flow_variable.row_skips}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=717f4001471f111086887562846d43f9"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=717f4001471f111086887562846d43f9"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -665,6 +656,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchasing groups from SAP ECC">3dec1877473a111086887562846d4312</flow>
         <order>1</order>
@@ -727,6 +719,7 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchasing groups from SAP ECC">3dec1877473a111086887562846d4312</flow>
         <order>6</order>
@@ -789,6 +782,7 @@
         <action_type display_value="Get Source Property Value">e9427c9f47265d5096fcb777746d43bd</action_type>
         <action_type_parent/>
         <comment>returns "query" result from integration service table</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchasing groups from SAP ECC">3dec1877473a111086887562846d4312</flow>
         <order>2</order>
@@ -838,6 +832,7 @@
         <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchasing groups from SAP ECC">3dec1877473a111086887562846d4312</flow>
         <order>18</order>
@@ -1322,7 +1317,7 @@
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
-        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <logic_definition display_value="">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
         <order>0</order>
         <outputs_assigned/>
         <outputs_to_assign/>
@@ -2923,11 +2918,11 @@
         <sys_created_on>2022-11-03 02:39:45</sys_created_on>
         <sys_id>4f0fd83b473a111086887562846d43a8</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Service record</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_3dec1877473a111086887562846d4312_service_record_en</sys_update_name>
         <sys_updated_by>bcone</sys_updated_by>
         <sys_updated_on>2022-11-03 02:39:45</sys_updated_on>
         <url/>
@@ -2946,11 +2941,11 @@
         <sys_created_on>2022-11-16 01:53:34</sys_created_on>
         <sys_id>d5211b3f4747155096fcb777746d43d1</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Connection Name</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_3dec1877473a111086887562846d4312_connection_name_en</sys_update_name>
         <sys_updated_by>bcone</sys_updated_by>
         <sys_updated_on>2022-11-16 01:53:34</sys_updated_on>
         <url/>
@@ -2971,11 +2966,11 @@
         <sys_created_on>2022-11-03 02:39:45</sys_created_on>
         <sys_id>0b0fd83b473a111086887562846d43ae</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_3dec1877473a111086887562846d4312_error_en</sys_update_name>
         <sys_updated_by>bcone</sys_updated_by>
         <sys_updated_on>2022-11-03 02:39:45</sys_updated_on>
         <url/>
@@ -2994,11 +2989,11 @@
         <sys_created_on>2022-11-03 02:39:46</sys_created_on>
         <sys_id>d30fd83b473a111086887562846d43ce</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_3dec1877473a111086887562846d4312_status_en</sys_update_name>
         <sys_updated_by>bcone</sys_updated_by>
         <sys_updated_on>2022-11-03 02:39:46</sys_updated_on>
         <url/>
@@ -3451,10 +3446,10 @@
     <sys_hub_action_instance action="delete_multiple" query="flow=c29eb140478f511086887562846d439a^sys_idNOT IN32bfc401471f111086887562846d43c7,5cbfc401471f111086887562846d435a,65bfc401471f111086887562846d4365,6f16e80c47db155096fcb777746d43c5,73cc4cd0876f1110a3e3cbb4dabb35a5,8bf5a80c47db155096fcb777746d433c,c0dc4cd0876f1110a3e3cbb4dabb35ed,daf5680c47db155096fcb777746d43f3"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
-        <action_type_parent display_value="Generate Encoded Query">b7eba03bc70130100409e122c7c26023</action_type_parent>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type_parent display_value="">b7eba03bc70130100409e122c7c26023</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchasing groups from SAP ECC">c29eb140478f511086887562846d439a</flow>
         <order>9</order>
@@ -3482,21 +3477,8 @@
         <sys_updated_by>krishna</sys_updated_by>
         <sys_updated_on>2022-11-19 09:00:56</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=32bfc401471f111086887562846d43c7"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>32bfc401471f111086887562846d43c7</id>
-        <sys_created_by>krishna</sys_created_by>
-        <sys_created_on>2022-11-19 09:00:56</sys_created_on>
-        <sys_id>7ebfc401471f111086887562846d43c7</sys_id>
-        <sys_mod_count>4</sys_mod_count>
-        <sys_updated_by>krishna</sys_updated_by>
-        <sys_updated_on>2022-12-27 12:25:50</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_DELIMITER":"{{flow_variable.delimiter}}","IV_ROWCOUNT":"{{flow_variable.row_count}}","IV_QUERY_TABLE":"{{flow_variable.table_name}}","IV_ROWSKIPS﻿":"{{flow_variable.row_skips}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=32bfc401471f111086887562846d43c7"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=32bfc401471f111086887562846d43c7"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -3505,6 +3487,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchasing groups from SAP ECC">c29eb140478f511086887562846d439a</flow>
         <order>1</order>
@@ -3567,6 +3550,7 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchasing groups from SAP ECC">c29eb140478f511086887562846d439a</flow>
         <order>6</order>
@@ -3629,6 +3613,7 @@
         <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
         <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchasing groups from SAP ECC">c29eb140478f511086887562846d439a</flow>
         <order>18</order>
@@ -3691,6 +3676,7 @@
         <action_type display_value="Get Source Property Value">e9427c9f47265d5096fcb777746d43bd</action_type>
         <action_type_parent display_value="Get Source Property Value">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
         <comment>returns "query" result from integration service table</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchasing groups from SAP ECC">c29eb140478f511086887562846d439a</flow>
         <order>2</order>
@@ -3740,6 +3726,7 @@
         <action_type display_value="Segregate Purchasing Group Response">4d597588474f511086887562846d43f8</action_type>
         <action_type_parent display_value="Segregate Purchasing Group Response">13889873473a111086887562846d4303</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchasing groups from SAP ECC">c29eb140478f511086887562846d439a</flow>
         <order>13</order>
@@ -3802,6 +3789,7 @@
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent display_value="Generate query for IT Options">65fadb48872f111013ef52c73cbb356a</action_type_parent>
         <comment>convert query string to query array object</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchasing groups from SAP ECC">c29eb140478f511086887562846d439a</flow>
         <order>4</order>
@@ -3838,6 +3826,7 @@
         <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
         <action_type_parent display_value="Execute RFC">006b07ffc7c03010678d208c95c26001</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch purchasing groups from SAP ECC">c29eb140478f511086887562846d439a</flow>
         <order>11</order>
@@ -4486,7 +4475,7 @@
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
-        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <logic_definition display_value="">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
         <order>0</order>
         <outputs_assigned/>
         <outputs_to_assign/>
@@ -5987,11 +5976,11 @@
         <sys_created_on>2022-11-04 04:15:43</sys_created_on>
         <sys_id>729eb140478f511086887562846d43e9</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Service record</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_c29eb140478f511086887562846d439a_service_record_en</sys_update_name>
         <sys_updated_by>bcone</sys_updated_by>
         <sys_updated_on>2022-11-04 04:15:43</sys_updated_on>
         <url/>
@@ -6010,11 +5999,11 @@
         <sys_created_on>2022-11-16 01:55:42</sys_created_on>
         <sys_id>aca1577f4747155096fcb777746d437b</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Connection Name</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_c29eb140478f511086887562846d439a_connection_name_en</sys_update_name>
         <sys_updated_by>bcone</sys_updated_by>
         <sys_updated_on>2022-11-16 01:55:42</sys_updated_on>
         <url/>
@@ -6035,11 +6024,11 @@
         <sys_created_on>2022-11-04 04:15:44</sys_created_on>
         <sys_id>369eb140478f511086887562846d43f3</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Error</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_c29eb140478f511086887562846d439a_error_en</sys_update_name>
         <sys_updated_by>bcone</sys_updated_by>
         <sys_updated_on>2022-11-04 04:15:44</sys_updated_on>
         <url/>
@@ -6058,11 +6047,11 @@
         <sys_created_on>2022-11-04 04:15:44</sys_created_on>
         <sys_id>7a9ef140478f511086887562846d4302</sys_id>
         <sys_mod_count>0</sys_mod_count>
-        <sys_name/>
+        <sys_name>Status</sys_name>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_c29eb140478f511086887562846d439a_status_en</sys_update_name>
         <sys_updated_by>bcone</sys_updated_by>
         <sys_updated_on>2022-11-04 04:15:44</sys_updated_on>
         <url/>
@@ -6111,9 +6100,8 @@
             <value>Error</value>
         </sys_choice>
     </sys_choice>
-    <sys_hub_flow action="UPDATE">
+    <sys_hub_flow action="update">
         <sys_id>3dec1877473a111086887562846d4312</sys_id>
         <latest_snapshot>c29eb140478f511086887562846d439a</latest_snapshot>
-        <compiler_build>glide-sandiego-12-22-2021__patch9a-12-12-2022_01-04-2023_0931.zip</compiler_build>
     </sys_hub_flow>
 </record_update>
