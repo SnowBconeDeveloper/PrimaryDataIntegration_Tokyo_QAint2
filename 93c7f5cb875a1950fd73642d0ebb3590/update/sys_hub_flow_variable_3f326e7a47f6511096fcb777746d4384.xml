@@ -38,7 +38,7 @@
         <label>Row Skipped</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Ledger Account Master data from SAP">a6322e7a47f6511096fcb777746d43b5</model>
+        <model display_value="">a6322e7a47f6511096fcb777746d43b5</model>
         <model_id>a6322e7a47f6511096fcb777746d43b5</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_a6322e7a47f6511096fcb777746d43b5</name>

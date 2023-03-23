@@ -6,6 +6,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build>glide-tokyo-07-08-2022__patch6-hotfix1-02-01-2023_02-02-2023_0949.zip</compiler_build>
         <copied_from>614dea32872f9910a3e3cbb4dabb359a</copied_from>
         <copied_from_name>Parallel Subflow Caller for FX r</copied_from_name>
         <description/>
@@ -15,7 +16,6 @@
         <name>Fetch FX rates from SAP ECC</name>
         <natlang/>
         <outputs/>
-        <pre_compiled>false</pre_compiled>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -36,8 +36,8 @@
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_flow_51ea7be68361ad1067a211b6feaad3ae</sys_update_name>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-03-23 11:55:37</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-23 13:13:13</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=51ea7be68361ad1067a211b6feaad3ae"/>
@@ -90,7 +90,6 @@
         <element>connection_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -137,7 +136,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -173,7 +171,6 @@
         <element>service_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -220,7 +217,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -257,7 +253,6 @@
         <element>error</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -304,7 +299,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -340,7 +334,6 @@
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -387,7 +380,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -400,6 +392,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">51ea7be68361ad1067a211b6feaad3ae</flow>
         <order>41</order>
@@ -501,6 +494,7 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">51ea7be68361ad1067a211b6feaad3ae</flow>
         <order>3</order>
@@ -563,6 +557,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">51ea7be68361ad1067a211b6feaad3ae</flow>
         <order>4</order>
@@ -651,6 +646,7 @@
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent display_value="Generate query for IT Options">65fadb48872f111013ef52c73cbb356a</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">51ea7be68361ad1067a211b6feaad3ae</flow>
         <order>8</order>
@@ -687,6 +683,7 @@
         <action_type display_value="Get Source Property Value">e9427c9f47265d5096fcb777746d43bd</action_type>
         <action_type_parent display_value="Get Source Property Value">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">51ea7be68361ad1067a211b6feaad3ae</flow>
         <order>7</order>
@@ -762,6 +759,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">51ea7be68361ad1067a211b6feaad3ae</flow>
         <order>16</order>
@@ -850,6 +848,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">51ea7be68361ad1067a211b6feaad3ae</flow>
         <order>1</order>
@@ -912,6 +911,7 @@
         <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
         <action_type_parent display_value="Execute RFC">006b07ffc7c03010678d208c95c26001</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">51ea7be68361ad1067a211b6feaad3ae</flow>
         <order>9</order>
@@ -1038,6 +1038,7 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">51ea7be68361ad1067a211b6feaad3ae</flow>
         <order>25</order>
@@ -1100,6 +1101,7 @@
         <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
         <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">51ea7be68361ad1067a211b6feaad3ae</flow>
         <order>20</order>
@@ -1174,6 +1176,7 @@
         <action_type display_value="Get Interval Range">63f2b6b6872f9910a3e3cbb4dabb350d</action_type>
         <action_type_parent display_value="Get Interval Range">4102b636872f9910a3e3cbb4dabb3596</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">51ea7be68361ad1067a211b6feaad3ae</flow>
         <order>27</order>
@@ -1206,10 +1209,10 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=9bea3fe68361ad1067a211b6feaad34c"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
-        <action_type_parent display_value="Generate Encoded Query">b7eba03bc70130100409e122c7c26023</action_type_parent>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type_parent display_value="">b7eba03bc70130100409e122c7c26023</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">51ea7be68361ad1067a211b6feaad3ae</flow>
         <order>6</order>
@@ -1237,21 +1240,8 @@
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-16 14:20:38</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=aaeafbe68361ad1067a211b6feaad3c9"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>aaeafbe68361ad1067a211b6feaad3c9</id>
-        <sys_created_by>shreenag.araga@snc</sys_created_by>
-        <sys_created_on>2023-03-16 14:20:38</sys_created_on>
-        <sys_id>3eeafbe68361ad1067a211b6feaad3ca</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-03-16 14:20:38</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_QUERY_TABLE":"{{flow_variable.table_name}}","IV_DELIMITER":"{{flow_variable.delimiter}}","IV_RECCOUNT_ONLY":"X﻿"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=aaeafbe68361ad1067a211b6feaad3c9"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=aaeafbe68361ad1067a211b6feaad3c9"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -1260,6 +1250,7 @@
         <action_type display_value="Segregate FX Exchange Data Response">b2c6352d47f25d1086887562846d43c6</action_type>
         <action_type_parent display_value="Segregate FX Exchange Data Response">a3f4f5a947f25d1086887562846d43eb</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">51ea7be68361ad1067a211b6feaad3ae</flow>
         <order>11</order>
@@ -1308,6 +1299,7 @@
         <action_type display_value="Get Interval Range">63f2b6b6872f9910a3e3cbb4dabb350d</action_type>
         <action_type_parent display_value="Get Interval Range">4102b636872f9910a3e3cbb4dabb3596</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">51ea7be68361ad1067a211b6feaad3ae</flow>
         <order>13</order>
@@ -1522,7 +1514,6 @@
         <element>wait_for_completion</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1569,7 +1560,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1704,7 +1694,6 @@
         <element>wait_for_completion</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1751,7 +1740,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2079,7 +2067,7 @@
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
-        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <logic_definition display_value="">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
         <order>0</order>
         <outputs_assigned/>
         <outputs_to_assign/>
@@ -3847,7 +3835,6 @@ Please refer the flow context logs.</value>
         <element>execution_ids</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3894,7 +3881,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3930,7 +3916,6 @@ Please refer the flow context logs.</value>
         <element>retry_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3977,7 +3962,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4013,7 +3997,6 @@ Please refer the flow context logs.</value>
         <element>resume_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4060,7 +4043,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4096,7 +4078,6 @@ Please refer the flow context logs.</value>
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4143,7 +4124,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4179,7 +4159,6 @@ Please refer the flow context logs.</value>
         <element>child_flow_status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4226,7 +4205,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4262,7 +4240,6 @@ Please refer the flow context logs.</value>
         <element>delimiter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4309,7 +4286,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4345,7 +4321,6 @@ Please refer the flow context logs.</value>
         <element>counter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4392,7 +4367,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4428,7 +4402,6 @@ Please refer the flow context logs.</value>
         <element>row_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4475,7 +4448,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4724,7 +4696,6 @@ Please refer the flow context logs.</value>
         <element>connection_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4771,7 +4742,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4807,7 +4777,6 @@ Please refer the flow context logs.</value>
         <element>service_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4854,7 +4823,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4891,7 +4859,6 @@ Please refer the flow context logs.</value>
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4938,7 +4905,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4974,7 +4940,6 @@ Please refer the flow context logs.</value>
         <element>error</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5021,7 +4986,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5034,6 +4998,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Get Interval Range">63f2b6b6872f9910a3e3cbb4dabb350d</action_type>
         <action_type_parent display_value="Get Interval Range">4102b636872f9910a3e3cbb4dabb3596</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">b65b3f2a8361ad1067a211b6feaad3b7</flow>
         <order>27</order>
@@ -5070,6 +5035,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">b65b3f2a8361ad1067a211b6feaad3b7</flow>
         <order>3</order>
@@ -5132,6 +5098,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
         <action_type_parent display_value="Execute RFC">006b07ffc7c03010678d208c95c26001</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">b65b3f2a8361ad1067a211b6feaad3b7</flow>
         <order>9</order>
@@ -5258,6 +5225,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent display_value="Generate query for IT Options">65fadb48872f111013ef52c73cbb356a</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">b65b3f2a8361ad1067a211b6feaad3b7</flow>
         <order>8</order>
@@ -5294,6 +5262,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">b65b3f2a8361ad1067a211b6feaad3b7</flow>
         <order>25</order>
@@ -5356,6 +5325,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Get Source Property Value">e9427c9f47265d5096fcb777746d43bd</action_type>
         <action_type_parent display_value="Get Source Property Value">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">b65b3f2a8361ad1067a211b6feaad3b7</flow>
         <order>7</order>
@@ -5427,10 +5397,10 @@ Please refer the flow context logs.</value>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=506bbf2a8361ad1067a211b6feaad360"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
-        <action_type_parent display_value="Generate Encoded Query">b7eba03bc70130100409e122c7c26023</action_type_parent>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type_parent display_value="">b7eba03bc70130100409e122c7c26023</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">b65b3f2a8361ad1067a211b6feaad3b7</flow>
         <order>6</order>
@@ -5458,21 +5428,8 @@ Please refer the flow context logs.</value>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-16 14:22:39</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=546bbf2a8361ad1067a211b6feaad356"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>546bbf2a8361ad1067a211b6feaad356</id>
-        <sys_created_by>shreenag.araga@snc</sys_created_by>
-        <sys_created_on>2023-03-16 14:22:39</sys_created_on>
-        <sys_id>946bbf2a8361ad1067a211b6feaad357</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-03-16 14:22:39</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_QUERY_TABLE":"{{flow_variable.table_name}}","IV_DELIMITER":"{{flow_variable.delimiter}}","IV_RECCOUNT_ONLY":"X﻿"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=546bbf2a8361ad1067a211b6feaad356"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=546bbf2a8361ad1067a211b6feaad356"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -5481,6 +5438,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">b65b3f2a8361ad1067a211b6feaad3b7</flow>
         <order>4</order>
@@ -5569,6 +5527,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Segregate FX Exchange Data Response">b2c6352d47f25d1086887562846d43c6</action_type>
         <action_type_parent display_value="Segregate FX Exchange Data Response">a3f4f5a947f25d1086887562846d43eb</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">b65b3f2a8361ad1067a211b6feaad3b7</flow>
         <order>11</order>
@@ -5617,6 +5576,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Get Interval Range">63f2b6b6872f9910a3e3cbb4dabb350d</action_type>
         <action_type_parent display_value="Get Interval Range">4102b636872f9910a3e3cbb4dabb3596</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">b65b3f2a8361ad1067a211b6feaad3b7</flow>
         <order>13</order>
@@ -5693,6 +5653,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
         <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">b65b3f2a8361ad1067a211b6feaad3b7</flow>
         <order>20</order>
@@ -5767,6 +5728,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">b65b3f2a8361ad1067a211b6feaad3b7</flow>
         <order>1</order>
@@ -5829,6 +5791,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">b65b3f2a8361ad1067a211b6feaad3b7</flow>
         <order>41</order>
@@ -5930,6 +5893,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch FX rates from SAP ECC">b65b3f2a8361ad1067a211b6feaad3b7</flow>
         <order>16</order>
@@ -6142,7 +6106,6 @@ Please refer the flow context logs.</value>
         <element>wait_for_completion</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -6189,7 +6152,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -6338,7 +6300,6 @@ Please refer the flow context logs.</value>
         <element>wait_for_completion</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -6385,7 +6346,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8173,7 +8133,7 @@ Please refer the flow context logs.</value>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
-        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <logic_definition display_value="">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
         <order>0</order>
         <outputs_assigned/>
         <outputs_to_assign/>
@@ -8481,7 +8441,6 @@ Please refer the flow context logs.</value>
         <element>child_flow_status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8528,7 +8487,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8564,7 +8522,6 @@ Please refer the flow context logs.</value>
         <element>execution_ids</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8611,7 +8568,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8647,7 +8603,6 @@ Please refer the flow context logs.</value>
         <element>retry_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8694,7 +8649,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8730,7 +8684,6 @@ Please refer the flow context logs.</value>
         <element>delimiter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8777,7 +8730,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8813,7 +8765,6 @@ Please refer the flow context logs.</value>
         <element>resume_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8860,7 +8811,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8896,7 +8846,6 @@ Please refer the flow context logs.</value>
         <element>counter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8943,7 +8892,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8979,7 +8927,6 @@ Please refer the flow context logs.</value>
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -9026,7 +8973,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -9062,7 +9008,6 @@ Please refer the flow context logs.</value>
         <element>row_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -9109,7 +9054,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -9252,9 +9196,8 @@ Please refer the flow context logs.</value>
             <value>Error</value>
         </sys_choice>
     </sys_choice>
-    <sys_hub_flow action="UPDATE">
+    <sys_hub_flow action="update">
         <sys_id>51ea7be68361ad1067a211b6feaad3ae</sys_id>
         <latest_snapshot>b65b3f2a8361ad1067a211b6feaad3b7</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch6-hotfix1-02-01-2023_02-02-2023_0949.zip</compiler_build>
     </sys_hub_flow>
 </record_update>

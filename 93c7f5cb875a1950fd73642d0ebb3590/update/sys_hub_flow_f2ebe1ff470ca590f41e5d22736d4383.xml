@@ -6,6 +6,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build>glide-tokyo-07-08-2022__patch6-hotfix1-02-01-2023_02-02-2023_0949.zip</compiler_build>
         <copied_from>dfd8000d97ffd910f5be33271153af90</copied_from>
         <copied_from_name>Fetch cost centers from SAP S4Ha</copied_from_name>
         <description/>
@@ -15,7 +16,6 @@
         <name>Fetch currencies from SAP S4HANA</name>
         <natlang/>
         <outputs/>
-        <pre_compiled>false</pre_compiled>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -37,7 +37,7 @@
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_flow_f2ebe1ff470ca590f41e5d22736d4383</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2023-03-09 14:19:24</sys_updated_on>
+        <sys_updated_on>2023-03-13 10:38:45</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=f2ebe1ff470ca590f41e5d22736d4383"/>
@@ -90,7 +90,6 @@
         <element>connection_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -137,7 +136,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -173,7 +171,6 @@
         <element>service_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -220,7 +217,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -257,7 +253,6 @@
         <element>error</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -304,7 +299,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -340,7 +334,6 @@
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -387,7 +380,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -400,6 +392,7 @@
         <action_type display_value="Execute RFC">bc39f16b77bf0110c2f897228a1061c7</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">f2ebe1ff470ca590f41e5d22736d4383</flow>
         <order>22</order>
@@ -526,6 +519,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">f2ebe1ff470ca590f41e5d22736d4383</flow>
         <order>1</order>
@@ -588,6 +582,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">f2ebe1ff470ca590f41e5d22736d4383</flow>
         <order>29</order>
@@ -650,6 +645,7 @@
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent/>
         <comment>convert query string to query array object</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">f2ebe1ff470ca590f41e5d22736d4383</flow>
         <order>5</order>
@@ -686,6 +682,7 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">f2ebe1ff470ca590f41e5d22736d4383</flow>
         <order>7</order>
@@ -747,6 +744,7 @@
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent/>
         <comment>convert query string to query array object</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">f2ebe1ff470ca590f41e5d22736d4383</flow>
         <order>21</order>
@@ -785,6 +783,7 @@
         <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
         <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">f2ebe1ff470ca590f41e5d22736d4383</flow>
         <order>14</order>
@@ -860,6 +859,7 @@
         <action_type display_value="Execute RFC">bc39f16b77bf0110c2f897228a1061c7</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">f2ebe1ff470ca590f41e5d22736d4383</flow>
         <order>8</order>
@@ -986,6 +986,7 @@
         <action_type display_value="Get Source Property Value">e9427c9f47265d5096fcb777746d43bd</action_type>
         <action_type_parent display_value="Get Source Property Value">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
         <comment>returns "query" result from integration service table</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">f2ebe1ff470ca590f41e5d22736d4383</flow>
         <order>2</order>
@@ -1035,6 +1036,7 @@
         <action_type display_value="Segregate Currency Text Response">917ace29479bd11096fcb777746d4324</action_type>
         <action_type_parent/>
         <comment>parse the payload received from Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">f2ebe1ff470ca590f41e5d22736d4383</flow>
         <order>24</order>
@@ -1079,10 +1081,10 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=7a09bdbf474ca590f41e5d22736d4374"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
         <action_type_parent/>
         <comment>create input query for Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">f2ebe1ff470ca590f41e5d22736d4383</flow>
         <order>4</order>
@@ -1110,29 +1112,16 @@
         <sys_updated_by>varun</sys_updated_by>
         <sys_updated_on>2023-01-04 12:03:42</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=a0b2f9f7474ca590f41e5d22736d437b"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>a0b2f9f7474ca590f41e5d22736d437b</id>
-        <sys_created_by>varun</sys_created_by>
-        <sys_created_on>2023-01-04 12:03:42</sys_created_on>
-        <sys_id>68b2f9f7474ca590f41e5d22736d437c</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>varun</sys_updated_by>
-        <sys_updated_on>2023-01-04 12:03:42</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_QUERY_TABLE":"{{flow_variable.table_name_1}}","IV_DELIMITER":"{{flow_variable.delimiter}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=a0b2f9f7474ca590f41e5d22736d437b"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=a0b2f9f7474ca590f41e5d22736d437b"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
         <action_type_parent/>
         <comment>create input query for Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">f2ebe1ff470ca590f41e5d22736d4383</flow>
         <order>20</order>
@@ -1160,21 +1149,8 @@
         <sys_updated_by>varun</sys_updated_by>
         <sys_updated_on>2023-01-04 12:31:25</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=a209bdbf474ca590f41e5d22736d433b"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>a209bdbf474ca590f41e5d22736d433b</id>
-        <sys_created_by>varun</sys_created_by>
-        <sys_created_on>2023-01-04 12:31:25</sys_created_on>
-        <sys_id>ee09bdbf474ca590f41e5d22736d4348</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>varun</sys_updated_by>
-        <sys_updated_on>2023-01-04 12:31:25</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_DELIMITER":"{{flow_variable.delimiter}}","IV_ROWCOUNT":"{{flow_variable.count}}","IV_ROWSKIPS":"{{flow_variable.rowskips}}","IV_QUERY_TABLE":"{{flow_variable.table_name_2}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=a209bdbf474ca590f41e5d22736d433b"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=a209bdbf474ca590f41e5d22736d433b"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -1183,6 +1159,7 @@
         <action_type display_value="Segregate Currency Data Response">ef1ee5a147f25d1086887562846d4330</action_type>
         <action_type_parent/>
         <comment>parse the payload received from Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">f2ebe1ff470ca590f41e5d22736d4383</flow>
         <order>10</order>
@@ -1231,6 +1208,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">f2ebe1ff470ca590f41e5d22736d4383</flow>
         <order>32</order>
@@ -3175,7 +3153,6 @@
         <element>count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3222,7 +3199,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3258,7 +3234,6 @@
         <element>stagingcount</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3305,7 +3280,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3341,7 +3315,6 @@
         <element>delimiter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3388,7 +3361,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3424,7 +3396,6 @@
         <element>total_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3471,7 +3442,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3507,7 +3477,6 @@
         <element>table_name_2</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3554,7 +3523,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3590,7 +3558,6 @@
         <element>rowskips</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3637,7 +3604,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3673,7 +3639,6 @@
         <element>total_rows</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3720,7 +3685,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3756,7 +3720,6 @@
         <element>table_name_1</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3803,7 +3766,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4052,7 +4014,6 @@
         <element>service_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4099,7 +4060,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4135,7 +4095,6 @@
         <element>connection_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4182,7 +4141,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4219,7 +4177,6 @@
         <element>error</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4266,7 +4223,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4302,7 +4258,6 @@
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4349,7 +4304,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4358,10 +4312,10 @@
     <sys_hub_action_instance action="delete_multiple" query="flow=8580340097e4e110f5be33271153af88^sys_idNOT IN0f80b40097e4e110f5be33271153af95,2680b40097e4e110f5be33271153af27,3280b40097e4e110f5be33271153af7a,4380b40097e4e110f5be33271153afb2,4780b40097e4e110f5be33271153af8d,5380b40097e4e110f5be33271153afef,5680b40097e4e110f5be33271153af12,5b80b40097e4e110f5be33271153aff6,9f80b40097e4e110f5be33271153affd,ae80b40097e4e110f5be33271153af2c,c780b40097e4e110f5be33271153af9a,cb80b40097e4e110f5be33271153af85,e680b40097e4e110f5be33271153af1d,fa80b40097e4e110f5be33271153af5c"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
-        <action_type_parent display_value="Generate Encoded Query">b7eba03bc70130100409e122c7c26023</action_type_parent>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type_parent display_value="">b7eba03bc70130100409e122c7c26023</action_type_parent>
         <comment>create input query for Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">8580340097e4e110f5be33271153af88</flow>
         <order>20</order>
@@ -4389,29 +4343,16 @@
         <sys_updated_by>varun</sys_updated_by>
         <sys_updated_on>2023-01-17 12:08:52</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=0f80b40097e4e110f5be33271153af95"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>0f80b40097e4e110f5be33271153af95</id>
-        <sys_created_by>varun</sys_created_by>
-        <sys_created_on>2023-01-17 12:08:52</sys_created_on>
-        <sys_id>4b80b40097e4e110f5be33271153af96</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>varun</sys_updated_by>
-        <sys_updated_on>2023-01-17 12:08:52</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_DELIMITER":"{{flow_variable.delimiter}}","IV_ROWCOUNT":"{{flow_variable.count}}","IV_ROWSKIPS":"{{flow_variable.rowskips}}","IV_QUERY_TABLE":"{{flow_variable.table_name_2}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=0f80b40097e4e110f5be33271153af95"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=0f80b40097e4e110f5be33271153af95"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
-        <action_type_parent display_value="Generate Encoded Query">b7eba03bc70130100409e122c7c26023</action_type_parent>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type_parent display_value="">b7eba03bc70130100409e122c7c26023</action_type_parent>
         <comment>create input query for Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">8580340097e4e110f5be33271153af88</flow>
         <order>4</order>
@@ -4439,21 +4380,8 @@
         <sys_updated_by>varun</sys_updated_by>
         <sys_updated_on>2023-01-17 12:08:50</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=2680b40097e4e110f5be33271153af27"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>2680b40097e4e110f5be33271153af27</id>
-        <sys_created_by>varun</sys_created_by>
-        <sys_created_on>2023-01-17 12:08:50</sys_created_on>
-        <sys_id>6680b40097e4e110f5be33271153af28</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>varun</sys_updated_by>
-        <sys_updated_on>2023-01-17 12:08:50</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_QUERY_TABLE":"{{flow_variable.table_name_1}}","IV_DELIMITER":"{{flow_variable.delimiter}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=2680b40097e4e110f5be33271153af27"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=2680b40097e4e110f5be33271153af27"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -4462,6 +4390,7 @@
         <action_type display_value="Execute RFC">bc39f16b77bf0110c2f897228a1061c7</action_type>
         <action_type_parent display_value="Execute RFC">a4ca41ef77fb0110c2f897228a1061f3</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">8580340097e4e110f5be33271153af88</flow>
         <order>8</order>
@@ -4588,6 +4517,7 @@
         <action_type display_value="Execute RFC">bc39f16b77bf0110c2f897228a1061c7</action_type>
         <action_type_parent display_value="Execute RFC">a4ca41ef77fb0110c2f897228a1061f3</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">8580340097e4e110f5be33271153af88</flow>
         <order>22</order>
@@ -4714,6 +4644,7 @@
         <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
         <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">8580340097e4e110f5be33271153af88</flow>
         <order>14</order>
@@ -4789,6 +4720,7 @@
         <action_type display_value="Segregate Currency Text Response">917ace29479bd11096fcb777746d4324</action_type>
         <action_type_parent display_value="Segregate Currency Text Response">0ac78625479bd11096fcb777746d430a</action_type_parent>
         <comment>parse the payload received from Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">8580340097e4e110f5be33271153af88</flow>
         <order>24</order>
@@ -4837,6 +4769,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">8580340097e4e110f5be33271153af88</flow>
         <order>1</order>
@@ -4899,6 +4832,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">8580340097e4e110f5be33271153af88</flow>
         <order>29</order>
@@ -4961,6 +4895,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">8580340097e4e110f5be33271153af88</flow>
         <order>32</order>
@@ -5035,6 +4970,7 @@
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent display_value="Generate query for IT Options">65fadb48872f111013ef52c73cbb356a</action_type_parent>
         <comment>convert query string to query array object</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">8580340097e4e110f5be33271153af88</flow>
         <order>5</order>
@@ -5070,6 +5006,7 @@
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent display_value="Generate query for IT Options">65fadb48872f111013ef52c73cbb356a</action_type_parent>
         <comment>convert query string to query array object</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">8580340097e4e110f5be33271153af88</flow>
         <order>21</order>
@@ -5108,6 +5045,7 @@
         <action_type display_value="Segregate Currency Data Response">ef1ee5a147f25d1086887562846d4330</action_type>
         <action_type_parent display_value="Segregate Currency Data Response">eb1da56147f25d1086887562846d43ff</action_type_parent>
         <comment>parse the payload received from Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">8580340097e4e110f5be33271153af88</flow>
         <order>10</order>
@@ -5156,6 +5094,7 @@
         <action_type display_value="Get Source Property Value">e9427c9f47265d5096fcb777746d43bd</action_type>
         <action_type_parent display_value="Get Source Property Value">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
         <comment>returns "query" result from integration service table</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">8580340097e4e110f5be33271153af88</flow>
         <order>2</order>
@@ -5205,6 +5144,7 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch currencies from SAP S4HANA">8580340097e4e110f5be33271153af88</flow>
         <order>7</order>
@@ -7137,7 +7077,6 @@
         <element>delimiter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -7184,7 +7123,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -7220,7 +7158,6 @@
         <element>table_name_1</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -7267,7 +7204,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -7303,7 +7239,6 @@
         <element>rowskips</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -7350,7 +7285,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -7386,7 +7320,6 @@
         <element>total_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -7433,7 +7366,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -7469,7 +7401,6 @@
         <element>total_rows</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -7516,7 +7447,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -7552,7 +7482,6 @@
         <element>table_name_2</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -7599,7 +7528,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -7635,7 +7563,6 @@
         <element>stagingcount</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -7682,7 +7609,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -7718,7 +7644,6 @@
         <element>count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -7765,7 +7690,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -7908,9 +7832,8 @@
             <value>error</value>
         </sys_choice>
     </sys_choice>
-    <sys_hub_flow action="UPDATE">
+    <sys_hub_flow action="update">
         <sys_id>f2ebe1ff470ca590f41e5d22736d4383</sys_id>
         <latest_snapshot>8580340097e4e110f5be33271153af88</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch6-hotfix1-02-01-2023_02-02-2023_0949.zip</compiler_build>
     </sys_hub_flow>
 </record_update>

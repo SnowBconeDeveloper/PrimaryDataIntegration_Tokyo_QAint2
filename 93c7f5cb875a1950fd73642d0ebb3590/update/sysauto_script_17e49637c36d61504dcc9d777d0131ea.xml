@@ -15,7 +15,7 @@ if(ga.getAggregate('COUNT') !== '0'){
         <name>Run Failed Master Data - Supplier</name>
         <offset/>
         <offset_type>0</offset_type>
-        <run_as display_value="Prama ">a618b9cac395211068187addd401318f</run_as>
+        <run_as display_value="">a618b9cac395211068187addd401318f</run_as>
         <run_as_tz/>
         <run_dayofmonth>1</run_dayofmonth>
         <run_dayofweek>1</run_dayofweek>

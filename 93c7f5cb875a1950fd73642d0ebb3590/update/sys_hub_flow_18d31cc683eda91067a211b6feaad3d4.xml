@@ -6,6 +6,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build>glide-tokyo-07-08-2022__patch6-hotfix1-02-01-2023_02-02-2023_0949.zip</compiler_build>
         <copied_from>359962f54708215002367562846d43aa</copied_from>
         <copied_from_name>Parallel Subflow Child GL accoun</copied_from_name>
         <description/>
@@ -15,7 +16,6 @@
         <name>GL accounts data helper for SAP ECC</name>
         <natlang/>
         <outputs/>
-        <pre_compiled>false</pre_compiled>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -36,8 +36,8 @@
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_flow_18d31cc683eda91067a211b6feaad3d4</sys_update_name>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-03-23 11:54:44</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-23 13:11:18</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=18d31cc683eda91067a211b6feaad3d4"/>
@@ -90,7 +90,6 @@
         <element>row_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -137,7 +136,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -173,7 +171,6 @@
         <element>connection_credential_alias</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -220,7 +217,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -256,7 +252,6 @@
         <element>erp_source_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -303,7 +298,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -339,7 +333,6 @@
         <element>range</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -386,7 +379,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -422,7 +414,6 @@
         <element>service_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -469,7 +460,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -506,7 +496,6 @@
         <element>error_message</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -553,7 +542,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -589,7 +577,6 @@
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -636,7 +623,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -649,6 +635,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="GL accounts data helper for SAP ECC">18d31cc683eda91067a211b6feaad3d4</flow>
         <order>15</order>
@@ -737,6 +724,7 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
         <action_type display_value="Get Source Property Value">e9427c9f47265d5096fcb777746d43bd</action_type>
         <action_type_parent display_value="Get Source Property Value">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="GL accounts data helper for SAP ECC">18d31cc683eda91067a211b6feaad3d4</flow>
         <order>1</order>
@@ -786,6 +774,7 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="GL accounts data helper for SAP ECC">18d31cc683eda91067a211b6feaad3d4</flow>
         <order>10</order>
@@ -848,6 +837,7 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="GL accounts data helper for SAP ECC">18d31cc683eda91067a211b6feaad3d4</flow>
         <order>21</order>
@@ -945,10 +935,10 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=5ee3dcc683eda91067a211b6feaad306"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
-        <action_type_parent display_value="Generate Encoded Query">b7eba03bc70130100409e122c7c26023</action_type_parent>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type_parent display_value="">b7eba03bc70130100409e122c7c26023</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="GL accounts data helper for SAP ECC">18d31cc683eda91067a211b6feaad3d4</flow>
         <order>3</order>
@@ -976,21 +966,8 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 08:14:17</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=70e39cc683eda91067a211b6feaad38c"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>70e39cc683eda91067a211b6feaad38c</id>
-        <sys_created_by>shreenag.araga@snc</sys_created_by>
-        <sys_created_on>2023-03-14 08:14:17</sys_created_on>
-        <sys_id>b0e39cc683eda91067a211b6feaad38d</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-03-14 08:14:17</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_DELIMITER":"{{flow_variable.delimiter}}","IV_QUERY_TABLE":"{{flow_variable.table_name}}","IV_ROWCOUNT":"{{subflow.row_count}}","IV_ROWSKIPS":"{{flow_variable.row_skips}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=70e39cc683eda91067a211b6feaad38c"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=70e39cc683eda91067a211b6feaad38c"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -999,6 +976,7 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="GL accounts data helper for SAP ECC">18d31cc683eda91067a211b6feaad3d4</flow>
         <order>13</order>
@@ -1100,6 +1078,7 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="GL accounts data helper for SAP ECC">18d31cc683eda91067a211b6feaad3d4</flow>
         <order>18</order>
@@ -1201,6 +1180,7 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
         <action_type display_value="Segregate GL account response">251ef9894797511086887562846d4313</action_type>
         <action_type_parent display_value="Segregate GL account response">f5a775414797511086887562846d43ed</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="GL accounts data helper for SAP ECC">18d31cc683eda91067a211b6feaad3d4</flow>
         <order>7</order>
@@ -1249,6 +1229,7 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="GL accounts data helper for SAP ECC">18d31cc683eda91067a211b6feaad3d4</flow>
         <order>24</order>
@@ -1351,6 +1332,7 @@ INCREASE COMPLETE COUNT</value>
         <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
         <action_type_parent display_value="Execute RFC">006b07ffc7c03010678d208c95c26001</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="GL accounts data helper for SAP ECC">18d31cc683eda91067a211b6feaad3d4</flow>
         <order>5</order>
@@ -1477,6 +1459,7 @@ INCREASE COMPLETE COUNT</value>
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent display_value="Generate query for IT Options">65fadb48872f111013ef52c73cbb356a</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="GL accounts data helper for SAP ECC">18d31cc683eda91067a211b6feaad3d4</flow>
         <order>4</order>
@@ -2033,7 +2016,7 @@ INCREASE COMPLETE COUNT</value>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
-        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <logic_definition display_value="">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
         <order>0</order>
         <outputs_assigned/>
         <outputs_to_assign/>
@@ -2289,7 +2272,6 @@ INCREASE COMPLETE COUNT</value>
         <element>helper</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2336,7 +2318,6 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2372,7 +2353,6 @@ INCREASE COMPLETE COUNT</value>
         <element>row_skips</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2419,7 +2399,6 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2455,7 +2434,6 @@ INCREASE COMPLETE COUNT</value>
         <element>delimiter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2502,7 +2480,6 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2538,7 +2515,6 @@ INCREASE COMPLETE COUNT</value>
         <element>staging_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2585,7 +2561,6 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2621,7 +2596,6 @@ INCREASE COMPLETE COUNT</value>
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2668,7 +2642,6 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2691,7 +2664,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_18d31cc683eda91067a211b6feaad3d4_row_count_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 08:14:07</sys_updated_on>
         <url/>
@@ -2714,7 +2687,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_18d31cc683eda91067a211b6feaad3d4_range_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 08:14:07</sys_updated_on>
         <url/>
@@ -2737,7 +2710,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_18d31cc683eda91067a211b6feaad3d4_connection_credential_alias_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 08:21:55</sys_updated_on>
         <url/>
@@ -2760,7 +2733,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_18d31cc683eda91067a211b6feaad3d4_erp_source_id_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 08:14:07</sys_updated_on>
         <url/>
@@ -2783,7 +2756,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_18d31cc683eda91067a211b6feaad3d4_service_record_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 08:14:06</sys_updated_on>
         <url/>
@@ -2808,7 +2781,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_18d31cc683eda91067a211b6feaad3d4_status_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 08:14:09</sys_updated_on>
         <url/>
@@ -2831,7 +2804,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_18d31cc683eda91067a211b6feaad3d4_error_message_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 08:14:08</sys_updated_on>
         <url/>
@@ -2986,7 +2959,6 @@ INCREASE COMPLETE COUNT</value>
         <element>row_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3033,7 +3005,6 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3069,7 +3040,6 @@ INCREASE COMPLETE COUNT</value>
         <element>service_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3116,7 +3086,6 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3152,7 +3121,6 @@ INCREASE COMPLETE COUNT</value>
         <element>range</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3199,7 +3167,6 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3235,7 +3202,6 @@ INCREASE COMPLETE COUNT</value>
         <element>erp_source_id</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3282,7 +3248,6 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3318,7 +3283,6 @@ INCREASE COMPLETE COUNT</value>
         <element>connection_credential_alias</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3365,7 +3329,6 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3402,7 +3365,6 @@ INCREASE COMPLETE COUNT</value>
         <element>error_message</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3449,7 +3411,6 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3485,7 +3446,6 @@ INCREASE COMPLETE COUNT</value>
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3532,7 +3492,6 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3545,6 +3504,7 @@ INCREASE COMPLETE COUNT</value>
         <action_type display_value="Create Record">2de05916c31332002841b63b12d3aee1</action_type>
         <action_type_parent display_value="Create Record">02f0b88cc3c632002841b63b12d3aeff</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="GL accounts data helper for SAP ECC">d8b59c4a83eda91067a211b6feaad3a7</flow>
         <order>10</order>
@@ -3607,6 +3567,7 @@ INCREASE COMPLETE COUNT</value>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="GL accounts data helper for SAP ECC">d8b59c4a83eda91067a211b6feaad3a7</flow>
         <order>18</order>
@@ -3708,6 +3669,7 @@ INCREASE COMPLETE COUNT</value>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="GL accounts data helper for SAP ECC">d8b59c4a83eda91067a211b6feaad3a7</flow>
         <order>15</order>
@@ -3796,6 +3758,7 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
         <action_type display_value="Segregate GL account response">251ef9894797511086887562846d4313</action_type>
         <action_type_parent display_value="Segregate GL account response">f5a775414797511086887562846d43ed</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="GL accounts data helper for SAP ECC">d8b59c4a83eda91067a211b6feaad3a7</flow>
         <order>7</order>
@@ -3844,6 +3807,7 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="GL accounts data helper for SAP ECC">d8b59c4a83eda91067a211b6feaad3a7</flow>
         <order>13</order>
@@ -3945,6 +3909,7 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="GL accounts data helper for SAP ECC">d8b59c4a83eda91067a211b6feaad3a7</flow>
         <order>21</order>
@@ -4042,10 +4007,10 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=64c5108a83eda91067a211b6feaad3f9"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
-        <action_type_parent display_value="Generate Encoded Query">b7eba03bc70130100409e122c7c26023</action_type_parent>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type_parent display_value="">b7eba03bc70130100409e122c7c26023</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="GL accounts data helper for SAP ECC">d8b59c4a83eda91067a211b6feaad3a7</flow>
         <order>3</order>
@@ -4073,21 +4038,8 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 08:22:25</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=7bb5108a83eda91067a211b6feaad373"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>7bb5108a83eda91067a211b6feaad373</id>
-        <sys_created_by>shreenag.araga@snc</sys_created_by>
-        <sys_created_on>2023-03-14 08:22:25</sys_created_on>
-        <sys_id>bbb5108a83eda91067a211b6feaad374</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-03-14 08:22:25</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_DELIMITER":"{{flow_variable.delimiter}}","IV_QUERY_TABLE":"{{flow_variable.table_name}}","IV_ROWCOUNT":"{{subflow.row_count}}","IV_ROWSKIPS":"{{flow_variable.row_skips}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=7bb5108a83eda91067a211b6feaad373"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=7bb5108a83eda91067a211b6feaad373"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -4096,6 +4048,7 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent display_value="Generate query for IT Options">65fadb48872f111013ef52c73cbb356a</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="GL accounts data helper for SAP ECC">d8b59c4a83eda91067a211b6feaad3a7</flow>
         <order>4</order>
@@ -4132,6 +4085,7 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
         <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
         <action_type_parent display_value="Execute RFC">006b07ffc7c03010678d208c95c26001</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="GL accounts data helper for SAP ECC">d8b59c4a83eda91067a211b6feaad3a7</flow>
         <order>5</order>
@@ -4232,6 +4186,7 @@ INCREASE COMPLETE COUNT^u_batch_count={{subflow.service_record.u_batch_count}}, 
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="GL accounts data helper for SAP ECC">d8b59c4a83eda91067a211b6feaad3a7</flow>
         <order>24</order>
@@ -4334,6 +4289,7 @@ INCREASE COMPLETE COUNT</value>
         <action_type display_value="Get Source Property Value">e9427c9f47265d5096fcb777746d43bd</action_type>
         <action_type_parent display_value="Get Source Property Value">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="GL accounts data helper for SAP ECC">d8b59c4a83eda91067a211b6feaad3a7</flow>
         <order>1</order>
@@ -4439,7 +4395,7 @@ INCREASE COMPLETE COUNT</value>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
-        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <logic_definition display_value="">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
         <order>0</order>
         <outputs_assigned/>
         <outputs_to_assign/>
@@ -5146,7 +5102,6 @@ INCREASE COMPLETE COUNT</value>
         <element>delimiter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5193,7 +5148,6 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5229,7 +5183,6 @@ INCREASE COMPLETE COUNT</value>
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5276,7 +5229,6 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5312,7 +5264,6 @@ INCREASE COMPLETE COUNT</value>
         <element>staging_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5359,7 +5310,6 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5395,7 +5345,6 @@ INCREASE COMPLETE COUNT</value>
         <element>helper</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5442,7 +5391,6 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5478,7 +5426,6 @@ INCREASE COMPLETE COUNT</value>
         <element>row_skips</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5525,7 +5472,6 @@ INCREASE COMPLETE COUNT</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5548,7 +5494,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_d8b59c4a83eda91067a211b6feaad3a7_row_count_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 08:22:15</sys_updated_on>
         <url/>
@@ -5571,7 +5517,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_d8b59c4a83eda91067a211b6feaad3a7_range_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 08:22:15</sys_updated_on>
         <url/>
@@ -5594,7 +5540,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_d8b59c4a83eda91067a211b6feaad3a7_connection_credential_alias_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 08:22:17</sys_updated_on>
         <url/>
@@ -5617,7 +5563,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_d8b59c4a83eda91067a211b6feaad3a7_erp_source_id_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 08:22:16</sys_updated_on>
         <url/>
@@ -5640,7 +5586,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_d8b59c4a83eda91067a211b6feaad3a7_service_record_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 08:22:14</sys_updated_on>
         <url/>
@@ -5665,7 +5611,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_d8b59c4a83eda91067a211b6feaad3a7_status_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 08:22:18</sys_updated_on>
         <url/>
@@ -5688,7 +5634,7 @@ INCREASE COMPLETE COUNT</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_d8b59c4a83eda91067a211b6feaad3a7_error_message_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 08:22:17</sys_updated_on>
         <url/>
@@ -5737,9 +5683,8 @@ INCREASE COMPLETE COUNT</value>
             <value>Success</value>
         </sys_choice>
     </sys_choice>
-    <sys_hub_flow action="UPDATE">
+    <sys_hub_flow action="update">
         <sys_id>18d31cc683eda91067a211b6feaad3d4</sys_id>
         <latest_snapshot>d8b59c4a83eda91067a211b6feaad3a7</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch6-hotfix1-02-01-2023_02-02-2023_0949.zip</compiler_build>
     </sys_hub_flow>
 </record_update>

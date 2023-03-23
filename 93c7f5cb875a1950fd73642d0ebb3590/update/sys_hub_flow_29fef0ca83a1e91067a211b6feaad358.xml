@@ -6,6 +6,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build>glide-tokyo-07-08-2022__patch6-hotfix1-02-01-2023_02-02-2023_0949.zip</compiler_build>
         <copied_from>0353a6314708215002367562846d4338</copied_from>
         <copied_from_name>Parallel Subflow Caller for GL a</copied_from_name>
         <description/>
@@ -15,7 +16,6 @@
         <name>Fetch GL accounts from SAP ECC</name>
         <natlang/>
         <outputs/>
-        <pre_compiled>false</pre_compiled>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -36,8 +36,8 @@
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_flow_29fef0ca83a1e91067a211b6feaad358</sys_update_name>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-03-23 11:55:04</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-23 13:12:15</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=29fef0ca83a1e91067a211b6feaad358"/>
@@ -90,7 +90,6 @@
         <element>connection_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -137,7 +136,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -173,7 +171,6 @@
         <element>service_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -220,7 +217,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -257,7 +253,6 @@
         <element>error</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -304,7 +299,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -340,7 +334,6 @@
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -387,7 +380,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -400,6 +392,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">29fef0ca83a1e91067a211b6feaad358</flow>
         <order>50</order>
@@ -488,6 +481,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">29fef0ca83a1e91067a211b6feaad358</flow>
         <order>19</order>
@@ -576,6 +570,7 @@
         <action_type display_value="Get Source Property Value">e9427c9f47265d5096fcb777746d43bd</action_type>
         <action_type_parent display_value="Get Source Property Value">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">29fef0ca83a1e91067a211b6feaad358</flow>
         <order>6</order>
@@ -621,10 +616,10 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=23fe34ca83a1e91067a211b6feaad3f7"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
-        <action_type_parent display_value="Generate Encoded Query">b7eba03bc70130100409e122c7c26023</action_type_parent>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type_parent display_value="">b7eba03bc70130100409e122c7c26023</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">29fef0ca83a1e91067a211b6feaad358</flow>
         <order>10</order>
@@ -652,21 +647,8 @@
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 11:22:38</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=27fe34ca83a1e91067a211b6feaad3ff"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>27fe34ca83a1e91067a211b6feaad3ff</id>
-        <sys_created_by>shreenag.araga@snc</sys_created_by>
-        <sys_created_on>2023-03-14 11:22:38</sys_created_on>
-        <sys_id>67fe74ca83a1e91067a211b6feaad300</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-03-14 11:22:38</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_QUERY_TABLE":"{{flow_variable.table_name}}","IV_DELIMITER":"{{flow_variable.delimiter}}","IV_RECCOUNT_ONLY":"X"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=27fe34ca83a1e91067a211b6feaad3ff"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=27fe34ca83a1e91067a211b6feaad3ff"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -674,6 +656,7 @@
         <action_type display_value="Convert String to Array">de4508db47c4655002367562846d43ec</action_type>
         <action_type_parent display_value="Convert String to Array">56d3809b47c4655002367562846d43b0</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">29fef0ca83a1e91067a211b6feaad358</flow>
         <order>4</order>
@@ -712,6 +695,7 @@
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent display_value="Generate query for IT Options">65fadb48872f111013ef52c73cbb356a</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">29fef0ca83a1e91067a211b6feaad358</flow>
         <order>11</order>
@@ -748,6 +732,7 @@
         <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
         <action_type_parent display_value="Execute RFC">006b07ffc7c03010678d208c95c26001</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">29fef0ca83a1e91067a211b6feaad358</flow>
         <order>12</order>
@@ -874,6 +859,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">29fef0ca83a1e91067a211b6feaad358</flow>
         <order>47</order>
@@ -975,6 +961,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">29fef0ca83a1e91067a211b6feaad358</flow>
         <order>1</order>
@@ -1037,6 +1024,7 @@
         <action_type display_value="Get Interval Range">63f2b6b6872f9910a3e3cbb4dabb350d</action_type>
         <action_type_parent display_value="Get Interval Range">4102b636872f9910a3e3cbb4dabb3596</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">29fef0ca83a1e91067a211b6feaad358</flow>
         <order>16</order>
@@ -1113,6 +1101,7 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">29fef0ca83a1e91067a211b6feaad358</flow>
         <order>3</order>
@@ -1175,6 +1164,7 @@
         <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
         <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">29fef0ca83a1e91067a211b6feaad358</flow>
         <order>27</order>
@@ -1249,6 +1239,7 @@
         <action_type display_value="Get Interval Range">63f2b6b6872f9910a3e3cbb4dabb350d</action_type>
         <action_type_parent display_value="Get Interval Range">4102b636872f9910a3e3cbb4dabb3596</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">29fef0ca83a1e91067a211b6feaad358</flow>
         <order>34</order>
@@ -1285,6 +1276,7 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">29fef0ca83a1e91067a211b6feaad358</flow>
         <order>32</order>
@@ -1347,6 +1339,7 @@
         <action_type display_value="Segregate GL account response">251ef9894797511086887562846d4313</action_type>
         <action_type_parent display_value="Segregate GL account response">f5a775414797511086887562846d43ed</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">29fef0ca83a1e91067a211b6feaad358</flow>
         <order>14</order>
@@ -1533,7 +1526,6 @@
         <element>wait_for_completion</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1580,7 +1572,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1715,7 +1706,6 @@
         <element>wait_for_completion</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1762,7 +1752,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -1911,7 +1900,6 @@
         <element>wait_for_completion</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -1958,7 +1946,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -2093,7 +2080,6 @@
         <element>wait_for_completion</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -2140,7 +2126,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3640,7 +3625,7 @@ Please refer the flow context logs.</value>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
-        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <logic_definition display_value="">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
         <order>0</order>
         <outputs_assigned/>
         <outputs_to_assign/>
@@ -4521,7 +4506,6 @@ Please refer the flow context logs.</value>
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4568,7 +4552,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4604,7 +4587,6 @@ Please refer the flow context logs.</value>
         <element>query</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4651,7 +4633,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4687,7 +4668,6 @@ Please refer the flow context logs.</value>
         <element>resume_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4734,7 +4714,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4770,7 +4749,6 @@ Please refer the flow context logs.</value>
         <element>execution_ids</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4817,7 +4795,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4853,7 +4830,6 @@ Please refer the flow context logs.</value>
         <element>delimiter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4900,7 +4876,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4936,7 +4911,6 @@ Please refer the flow context logs.</value>
         <element>row_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4983,7 +4957,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5019,7 +4992,6 @@ Please refer the flow context logs.</value>
         <element>counter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5066,7 +5038,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5089,7 +5060,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_29fef0ca83a1e91067a211b6feaad358_service_record_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 11:22:33</sys_updated_on>
         <url/>
@@ -5112,7 +5083,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_29fef0ca83a1e91067a211b6feaad358_connection_name_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 11:22:33</sys_updated_on>
         <url/>
@@ -5137,7 +5108,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_29fef0ca83a1e91067a211b6feaad358_error_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 11:22:33</sys_updated_on>
         <url/>
@@ -5160,7 +5131,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_29fef0ca83a1e91067a211b6feaad358_status_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 11:22:33</sys_updated_on>
         <url/>
@@ -5315,7 +5286,6 @@ Please refer the flow context logs.</value>
         <element>service_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5362,7 +5332,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5398,7 +5367,6 @@ Please refer the flow context logs.</value>
         <element>connection_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5445,7 +5413,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5482,7 +5449,6 @@ Please refer the flow context logs.</value>
         <element>error</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5529,7 +5495,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5565,7 +5530,6 @@ Please refer the flow context logs.</value>
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -5612,7 +5576,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -5625,6 +5588,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Get Source Property Value">e9427c9f47265d5096fcb777746d43bd</action_type>
         <action_type_parent display_value="Get Source Property Value">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">536c1e828369e91067a211b6feaad333</flow>
         <order>6</order>
@@ -5674,6 +5638,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Wait For Condition">89ce8a4187120010663ca1bb36cb0be3</action_type>
         <action_type_parent display_value="Wait For Condition">8bb9a8160b10030085c083eb37673aec</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">536c1e828369e91067a211b6feaad333</flow>
         <order>27</order>
@@ -5747,6 +5712,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Convert String to Array">de4508db47c4655002367562846d43ec</action_type>
         <action_type_parent display_value="Convert String to Array">56d3809b47c4655002367562846d43b0</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">536c1e828369e91067a211b6feaad333</flow>
         <order>4</order>
@@ -5781,10 +5747,10 @@ Please refer the flow context logs.</value>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=307c5e828369e91067a211b6feaad3fd"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
-        <action_type_parent display_value="Generate Encoded Query">b7eba03bc70130100409e122c7c26023</action_type_parent>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type_parent display_value="">b7eba03bc70130100409e122c7c26023</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">536c1e828369e91067a211b6feaad333</flow>
         <order>10</order>
@@ -5812,21 +5778,8 @@ Please refer the flow context logs.</value>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 18:10:57</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=4d7c9e828369e91067a211b6feaad310"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>4d7c9e828369e91067a211b6feaad310</id>
-        <sys_created_by>shreenag.araga@snc</sys_created_by>
-        <sys_created_on>2023-03-14 18:10:57</sys_created_on>
-        <sys_id>8d7c9e828369e91067a211b6feaad311</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>shreenag.araga@snc</sys_updated_by>
-        <sys_updated_on>2023-03-14 18:10:57</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_QUERY_TABLE":"{{flow_variable.table_name}}","IV_DELIMITER":"{{flow_variable.delimiter}}","IV_RECCOUNT_ONLY":"X"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=4d7c9e828369e91067a211b6feaad310"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=4d7c9e828369e91067a211b6feaad310"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -5835,6 +5788,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Segregate GL account response">251ef9894797511086887562846d4313</action_type>
         <action_type_parent display_value="Segregate GL account response">f5a775414797511086887562846d43ed</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">536c1e828369e91067a211b6feaad333</flow>
         <order>14</order>
@@ -5883,6 +5837,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">536c1e828369e91067a211b6feaad333</flow>
         <order>19</order>
@@ -5971,6 +5926,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">536c1e828369e91067a211b6feaad333</flow>
         <order>47</order>
@@ -6072,6 +6028,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent display_value="Generate query for IT Options">65fadb48872f111013ef52c73cbb356a</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">536c1e828369e91067a211b6feaad333</flow>
         <order>11</order>
@@ -6108,6 +6065,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Execute RFC">878053f3c7043010678d208c95c26025</action_type>
         <action_type_parent display_value="Execute RFC">006b07ffc7c03010678d208c95c26001</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">536c1e828369e91067a211b6feaad333</flow>
         <order>12</order>
@@ -6234,6 +6192,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">536c1e828369e91067a211b6feaad333</flow>
         <order>50</order>
@@ -6322,6 +6281,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">536c1e828369e91067a211b6feaad333</flow>
         <order>3</order>
@@ -6384,6 +6344,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">536c1e828369e91067a211b6feaad333</flow>
         <order>1</order>
@@ -6446,6 +6407,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Get Interval Range">63f2b6b6872f9910a3e3cbb4dabb350d</action_type>
         <action_type_parent display_value="Get Interval Range">4102b636872f9910a3e3cbb4dabb3596</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">536c1e828369e91067a211b6feaad333</flow>
         <order>16</order>
@@ -6522,6 +6484,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Get Interval Range">63f2b6b6872f9910a3e3cbb4dabb350d</action_type>
         <action_type_parent display_value="Get Interval Range">4102b636872f9910a3e3cbb4dabb3596</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">536c1e828369e91067a211b6feaad333</flow>
         <order>34</order>
@@ -6558,6 +6521,7 @@ Please refer the flow context logs.</value>
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch GL accounts from SAP ECC">536c1e828369e91067a211b6feaad333</flow>
         <order>32</order>
@@ -6758,7 +6722,6 @@ Please refer the flow context logs.</value>
         <element>wait_for_completion</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -6805,7 +6768,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -6954,7 +6916,6 @@ Please refer the flow context logs.</value>
         <element>wait_for_completion</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -7001,7 +6962,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -7136,7 +7096,6 @@ Please refer the flow context logs.</value>
         <element>wait_for_completion</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -7183,7 +7142,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -7318,7 +7276,6 @@ Please refer the flow context logs.</value>
         <element>wait_for_completion</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -7365,7 +7322,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8099,7 +8055,7 @@ Please refer the flow context logs.</value>
         <flow_variable/>
         <flow_variables_assigned/>
         <inputs/>
-        <logic_definition display_value="Top Level Try">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
+        <logic_definition display_value="">e9060aa2c3013010ace8b740ad40dd51</logic_definition>
         <order>0</order>
         <outputs_assigned/>
         <outputs_to_assign/>
@@ -9746,7 +9702,6 @@ Please refer the flow context logs.</value>
         <element>row_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -9793,7 +9748,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -9829,7 +9783,6 @@ Please refer the flow context logs.</value>
         <element>resume_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -9876,7 +9829,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -9912,7 +9864,6 @@ Please refer the flow context logs.</value>
         <element>counter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -9959,7 +9910,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -9995,7 +9945,6 @@ Please refer the flow context logs.</value>
         <element>execution_ids</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -10042,7 +9991,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -10078,7 +10026,6 @@ Please refer the flow context logs.</value>
         <element>delimiter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -10125,7 +10072,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -10161,7 +10107,6 @@ Please refer the flow context logs.</value>
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -10208,7 +10153,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -10244,7 +10188,6 @@ Please refer the flow context logs.</value>
         <element>query</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -10291,7 +10234,6 @@ Please refer the flow context logs.</value>
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type>script</virtual_type>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -10314,7 +10256,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_536c1e828369e91067a211b6feaad333_connection_name_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 18:10:52</sys_updated_on>
         <url/>
@@ -10337,7 +10279,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_input_536c1e828369e91067a211b6feaad333_service_record_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 18:10:52</sys_updated_on>
         <url/>
@@ -10362,7 +10304,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_536c1e828369e91067a211b6feaad333_status_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 18:10:52</sys_updated_on>
         <url/>
@@ -10385,7 +10327,7 @@ Please refer the flow context logs.</value>
         <sys_package display_value="Primary Data Integration with SAP" source="sn_sap_data_int">93c7f5cb875a1950fd73642d0ebb3590</sys_package>
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
-        <sys_update_name/>
+        <sys_update_name>sys_documentation_var__m_sys_hub_flow_output_536c1e828369e91067a211b6feaad333_error_en</sys_update_name>
         <sys_updated_by>shreenag.araga@snc</sys_updated_by>
         <sys_updated_on>2023-03-14 18:10:52</sys_updated_on>
         <url/>
@@ -10434,9 +10376,8 @@ Please refer the flow context logs.</value>
             <value>Error</value>
         </sys_choice>
     </sys_choice>
-    <sys_hub_flow action="UPDATE">
+    <sys_hub_flow action="update">
         <sys_id>29fef0ca83a1e91067a211b6feaad358</sys_id>
         <latest_snapshot>536c1e828369e91067a211b6feaad333</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch6-hotfix1-02-01-2023_02-02-2023_0949.zip</compiler_build>
     </sys_hub_flow>
 </record_update>

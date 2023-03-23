@@ -38,7 +38,7 @@
         <label>Row Skipped</label>
         <mandatory>false</mandatory>
         <max_length>40</max_length>
-        <model display_value="Retrieve Ledger Account">b72e3fc747be911096fcb777746d43ff</model>
+        <model display_value="">b72e3fc747be911096fcb777746d43ff</model>
         <model_id>b72e3fc747be911096fcb777746d43ff</model_id>
         <model_table>sys_hub_flow_snapshot</model_table>
         <name>var__m_sys_hub_flow_variable_b72e3fc747be911096fcb777746d43ff</name>

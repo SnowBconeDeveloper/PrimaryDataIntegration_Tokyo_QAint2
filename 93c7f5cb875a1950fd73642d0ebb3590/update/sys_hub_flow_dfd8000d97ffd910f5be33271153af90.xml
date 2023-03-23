@@ -6,6 +6,7 @@
         <annotation/>
         <callable_by_client_api>false</callable_by_client_api>
         <category/>
+        <compiler_build>glide-tokyo-07-08-2022__patch6-hotfix1-02-01-2023_02-02-2023_0949.zip</compiler_build>
         <copied_from/>
         <copied_from_name/>
         <description/>
@@ -15,7 +16,6 @@
         <name>Fetch cost centers from SAP S4Hana</name>
         <natlang/>
         <outputs/>
-        <pre_compiled>false</pre_compiled>
         <remote_trigger_id/>
         <run_as>system</run_as>
         <run_with_roles/>
@@ -36,8 +36,8 @@
         <sys_policy/>
         <sys_scope display_value="Primary Data Integration with SAP">93c7f5cb875a1950fd73642d0ebb3590</sys_scope>
         <sys_update_name>sys_hub_flow_dfd8000d97ffd910f5be33271153af90</sys_update_name>
-        <sys_updated_by>Mayank</sys_updated_by>
-        <sys_updated_on>2023-03-23 12:21:45</sys_updated_on>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-03-23 13:14:22</sys_updated_on>
         <type>subflow</type>
     </sys_hub_flow>
     <sys_translated_text action="delete_multiple" query="documentkey=dfd8000d97ffd910f5be33271153af90"/>
@@ -90,7 +90,6 @@
         <element>connection_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -137,7 +136,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -173,7 +171,6 @@
         <element>service_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -220,7 +217,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -257,7 +253,6 @@
         <element>error</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -304,7 +299,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -340,7 +334,6 @@
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -387,7 +380,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -400,6 +392,7 @@
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent/>
         <comment>convert query string to query array object</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">dfd8000d97ffd910f5be33271153af90</flow>
         <order>4</order>
@@ -436,6 +429,7 @@
         <action_type display_value="Execute RFC">bc39f16b77bf0110c2f897228a1061c7</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">dfd8000d97ffd910f5be33271153af90</flow>
         <order>11</order>
@@ -576,6 +570,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">dfd8000d97ffd910f5be33271153af90</flow>
         <order>1</order>
@@ -638,6 +633,7 @@
         <action_type display_value="Execute RFC">bc39f16b77bf0110c2f897228a1061c7</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">dfd8000d97ffd910f5be33271153af90</flow>
         <order>34</order>
@@ -764,6 +760,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">dfd8000d97ffd910f5be33271153af90</flow>
         <order>41</order>
@@ -826,6 +823,7 @@
         <action_type display_value="Segregate Cost Center Response">5612c71a47ea595096fcb777746d4379</action_type>
         <action_type_parent/>
         <comment>parse the payload received from Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">dfd8000d97ffd910f5be33271153af90</flow>
         <order>13</order>
@@ -896,10 +894,10 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=5e6f900197731d10f5be33271153afbc"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
         <action_type_parent/>
         <comment>create input query for Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">dfd8000d97ffd910f5be33271153af90</flow>
         <order>32</order>
@@ -927,29 +925,16 @@
         <sys_updated_by>varun</sys_updated_by>
         <sys_updated_on>2023-02-07 12:28:45</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=767e7cb247b0ed10f41e5d22736d4323"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>767e7cb247b0ed10f41e5d22736d4323</id>
-        <sys_created_by>varun</sys_created_by>
-        <sys_created_on>2023-02-07 12:28:45</sys_created_on>
-        <sys_id>7e7e7cb247b0ed10f41e5d22736d4324</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>varun</sys_updated_by>
-        <sys_updated_on>2023-02-07 12:28:45</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_QUERY_TABLE":"{{flow_variable.table_name_2}}","IV_DELIMITER":"{{flow_variable.delimiter}}","IV_ROWCOUNT":"{{flow_variable.row_count}}","IV_ROWSKIPS":"{{flow_variable.row_skips}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=767e7cb247b0ed10f41e5d22736d4323"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=767e7cb247b0ed10f41e5d22736d4323"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
         <action_type_parent/>
         <comment>create input query for Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">dfd8000d97ffd910f5be33271153af90</flow>
         <order>9</order>
@@ -977,21 +962,8 @@
         <sys_updated_by>varun</sys_updated_by>
         <sys_updated_on>2022-12-14 06:40:49</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=866f900197731d10f5be33271153af8b"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>866f900197731d10f5be33271153af8b</id>
-        <sys_created_by>varun</sys_created_by>
-        <sys_created_on>2022-12-14 06:40:49</sys_created_on>
-        <sys_id>8a6f900197731d10f5be33271153af8c</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>varun</sys_updated_by>
-        <sys_updated_on>2023-03-10 10:06:15</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_DELIMITER":"{{flow_variable.delimiter}}","IV_QUERY_TABLE":"{{flow_variable.table_name}}","IV_ROWCOUNT":"{{flow_variable.row_count}}","IV_ROWSKIPS":"{{flow_variable.row_skips}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=866f900197731d10f5be33271153af8b"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=866f900197731d10f5be33271153af8b"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -999,6 +971,7 @@
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent/>
         <comment>convert query string to query array object</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">dfd8000d97ffd910f5be33271153af90</flow>
         <order>33</order>
@@ -1037,6 +1010,7 @@
         <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">dfd8000d97ffd910f5be33271153af90</flow>
         <order>18</order>
@@ -1113,6 +1087,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">dfd8000d97ffd910f5be33271153af90</flow>
         <order>44</order>
@@ -1187,6 +1162,7 @@
         <action_type display_value="Segregate Cost Center Data For Text">21974cde8715e910a3e3cbb4dabb3581</action_type>
         <action_type_parent/>
         <comment>parse the payload received from Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">dfd8000d97ffd910f5be33271153af90</flow>
         <order>36</order>
@@ -1235,6 +1211,7 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent/>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">dfd8000d97ffd910f5be33271153af90</flow>
         <order>6</order>
@@ -1297,6 +1274,7 @@
         <action_type display_value="Get Source Property Value">e9427c9f47265d5096fcb777746d43bd</action_type>
         <action_type_parent/>
         <comment>returns "query" result from integration service table</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">dfd8000d97ffd910f5be33271153af90</flow>
         <order>2</order>
@@ -3573,7 +3551,6 @@
         <element>row_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3620,7 +3597,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3656,7 +3632,6 @@
         <element>row_skips</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3703,7 +3678,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3739,7 +3713,6 @@
         <element>query</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3786,7 +3759,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3822,7 +3794,6 @@
         <element>table_name_2</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3869,7 +3840,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3905,7 +3875,6 @@
         <element>total_rows</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -3952,7 +3921,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -3988,7 +3956,6 @@
         <element>delimiter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4035,7 +4002,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4071,7 +4037,6 @@
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4118,7 +4083,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4154,7 +4118,6 @@
         <element>stagingcount</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4201,7 +4164,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4450,7 +4412,6 @@
         <element>connection_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4497,7 +4458,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4533,7 +4493,6 @@
         <element>service_record</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4580,7 +4539,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4617,7 +4575,6 @@
         <element>status</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4664,7 +4621,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4700,7 +4656,6 @@
         <element>error</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -4747,7 +4702,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -4760,6 +4714,7 @@
         <action_type display_value="Execute RFC">bc39f16b77bf0110c2f897228a1061c7</action_type>
         <action_type_parent display_value="Execute RFC">a4ca41ef77fb0110c2f897228a1061f3</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">d9992a7897c82950f5be33271153af89</flow>
         <order>34</order>
@@ -4886,6 +4841,7 @@
         <action_type display_value="Update Record">f9d01dd2c31332002841b63b12d3aea1</action_type>
         <action_type_parent display_value="Update Record">baf174c8c3c232002841b63b12d3aee4</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">d9992a7897c82950f5be33271153af89</flow>
         <order>44</order>
@@ -4960,6 +4916,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">d9992a7897c82950f5be33271153af89</flow>
         <order>1</order>
@@ -5022,6 +4979,7 @@
         <action_type display_value="Look Up Record">9d09f99587003300663ca1bb36cb0ba3</action_type>
         <action_type_parent display_value="Look Up Record">b93f42810b30030085c083eb37673a63</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">d9992a7897c82950f5be33271153af89</flow>
         <order>6</order>
@@ -5084,6 +5042,7 @@
         <action_type display_value="Segregate Cost Center Response">5612c71a47ea595096fcb777746d4379</action_type>
         <action_type_parent display_value="Segregate Cost Center Response">a12eb21647ea595096fcb777746d43c1</action_type_parent>
         <comment>parse the payload received from Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">d9992a7897c82950f5be33271153af89</flow>
         <order>13</order>
@@ -5158,6 +5117,7 @@
         <action_type display_value="Execute RFC">bc39f16b77bf0110c2f897228a1061c7</action_type>
         <action_type_parent display_value="Execute RFC">a4ca41ef77fb0110c2f897228a1061f3</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">d9992a7897c82950f5be33271153af89</flow>
         <order>11</order>
@@ -5294,10 +5254,10 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=2a996a7897c82950f5be33271153afb0"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
-        <action_type_parent display_value="Generate Encoded Query">b7eba03bc70130100409e122c7c26023</action_type_parent>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type_parent display_value="">b7eba03bc70130100409e122c7c26023</action_type_parent>
         <comment>create input query for Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">d9992a7897c82950f5be33271153af89</flow>
         <order>9</order>
@@ -5325,21 +5285,8 @@
         <sys_updated_by>varun</sys_updated_by>
         <sys_updated_on>2022-12-26 08:21:48</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=2e996a7897c82950f5be33271153af94"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>2e996a7897c82950f5be33271153af94</id>
-        <sys_created_by>varun</sys_created_by>
-        <sys_created_on>2022-12-26 08:21:48</sys_created_on>
-        <sys_id>6e996a7897c82950f5be33271153af95</sys_id>
-        <sys_mod_count>2</sys_mod_count>
-        <sys_updated_by>varun</sys_updated_by>
-        <sys_updated_on>2023-03-10 10:12:46</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_DELIMITER":"{{flow_variable.delimiter}}","IV_QUERY_TABLE":"{{flow_variable.table_name}}","IV_ROWCOUNT":"{{flow_variable.row_count}}","IV_ROWSKIPS":"{{flow_variable.row_skips}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=2e996a7897c82950f5be33271153af94"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=2e996a7897c82950f5be33271153af94"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -5347,6 +5294,7 @@
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent display_value="Generate query for IT Options">65fadb48872f111013ef52c73cbb356a</action_type_parent>
         <comment>convert query string to query array object</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">d9992a7897c82950f5be33271153af89</flow>
         <order>33</order>
@@ -5385,6 +5333,7 @@
         <action_type display_value="Look Up Records">43400a1587003300663ca1bb36cb0b4b</action_type>
         <action_type_parent display_value="Look Up Records">d1c56ec50b30030085c083eb37673a50</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">d9992a7897c82950f5be33271153af89</flow>
         <order>41</order>
@@ -5447,6 +5396,7 @@
         <action_type display_value="Get Source Property Value">e9427c9f47265d5096fcb777746d43bd</action_type>
         <action_type_parent display_value="Get Source Property Value">11f2dd8587ee1190fd73642d0ebb35b3</action_type_parent>
         <comment>returns "query" result from integration service table</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">d9992a7897c82950f5be33271153af89</flow>
         <order>2</order>
@@ -5496,6 +5446,7 @@
         <action_type display_value="Segregate Cost Center Data For Text">21974cde8715e910a3e3cbb4dabb3581</action_type>
         <action_type_parent display_value="Segregate Cost Center Data For Text">97b64c9e8715e910a3e3cbb4dabb35ff</action_type_parent>
         <comment>parse the payload received from Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">d9992a7897c82950f5be33271153af89</flow>
         <order>36</order>
@@ -5540,10 +5491,10 @@
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=9e308f5a97192d10f5be33271153afb4"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
         <action_inputs/>
-        <action_inputs/>
-        <action_type display_value="Generate Encoded Query">3b7fe8fbc70130100409e122c7c26049</action_type>
-        <action_type_parent display_value="Generate Encoded Query">b7eba03bc70130100409e122c7c26023</action_type_parent>
+        <action_type display_value="">3b7fe8fbc70130100409e122c7c26049</action_type>
+        <action_type_parent display_value="">b7eba03bc70130100409e122c7c26023</action_type_parent>
         <comment>create input query for Execute RFC step</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">d9992a7897c82950f5be33271153af89</flow>
         <order>32</order>
@@ -5571,21 +5522,8 @@
         <sys_updated_by>varun</sys_updated_by>
         <sys_updated_on>2023-02-07 12:30:27</sys_updated_on>
         <value>{}</value>
-        <variable display_value="Fields">7b7fe8fbc70130100409e122c7c2604a</variable>
+        <variable display_value="">7b7fe8fbc70130100409e122c7c2604a</variable>
     </sys_variable_value>
-    <sys_element_mapping action="delete_multiple" query="id=b3de7cf247b0ed10f41e5d22736d4329"/>
-    <sys_element_mapping action="INSERT_OR_UPDATE">
-        <field>fields</field>
-        <id>b3de7cf247b0ed10f41e5d22736d4329</id>
-        <sys_created_by>varun</sys_created_by>
-        <sys_created_on>2023-02-07 12:30:27</sys_created_on>
-        <sys_id>f3de7cf247b0ed10f41e5d22736d432a</sys_id>
-        <sys_mod_count>0</sys_mod_count>
-        <sys_updated_by>varun</sys_updated_by>
-        <sys_updated_on>2023-02-07 12:30:27</sys_updated_on>
-        <table>var__m_sys_hub_action_input_3b7fe8fbc70130100409e122c7c26049</table>
-        <value>{"IV_QUERY_TABLE":"{{flow_variable.table_name_2}}","IV_DELIMITER":"{{flow_variable.delimiter}}","IV_ROWCOUNT":"{{flow_variable.row_count}}","IV_ROWSKIPS":"{{flow_variable.row_skips}}"}</value>
-    </sys_element_mapping>
     <sys_hub_input_scripts action="delete_multiple" query="instance=b3de7cf247b0ed10f41e5d22736d4329"/>
     <sys_hub_alias_mapping action="delete_multiple" query="source_id=b3de7cf247b0ed10f41e5d22736d4329"/>
     <sys_hub_action_instance action="INSERT_OR_UPDATE">
@@ -5594,6 +5532,7 @@
         <action_type display_value="Create or Update Record">ab575ae253b3230034c6ddeeff7b12f1</action_type>
         <action_type_parent display_value="Create or Update Record">e057d2e253b3230034c6ddeeff7b1261</action_type_parent>
         <comment/>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">d9992a7897c82950f5be33271153af89</flow>
         <order>18</order>
@@ -5656,6 +5595,7 @@
         <action_type display_value="Generate query for IT Options">867bd788872f111013ef52c73cbb358a</action_type>
         <action_type_parent display_value="Generate query for IT Options">65fadb48872f111013ef52c73cbb356a</action_type_parent>
         <comment>convert query string to query array object</comment>
+        <compiled_snapshot/>
         <display_text/>
         <flow display_value="Fetch cost centers from SAP S4Hana">d9992a7897c82950f5be33271153af89</flow>
         <order>4</order>
@@ -7919,7 +7859,6 @@
         <element>delimiter</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -7966,7 +7905,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8002,7 +7940,6 @@
         <element>table_name_2</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8049,7 +7986,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8085,7 +8021,6 @@
         <element>row_count</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8132,7 +8067,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8168,7 +8102,6 @@
         <element>row_skips</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8215,7 +8148,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8251,7 +8183,6 @@
         <element>table_name</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8298,7 +8229,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8334,7 +8264,6 @@
         <element>query</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8381,7 +8310,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8417,7 +8345,6 @@
         <element>total_rows</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8464,7 +8391,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8500,7 +8426,6 @@
         <element>stagingcount</element>
         <element_reference>false</element_reference>
         <foreign_database/>
-        <formula/>
         <function_definition/>
         <function_field>false</function_field>
         <help/>
@@ -8547,7 +8472,6 @@
         <use_dynamic_default>false</use_dynamic_default>
         <use_reference_qualifier>simple</use_reference_qualifier>
         <virtual>false</virtual>
-        <virtual_type/>
         <widget/>
         <write_roles/>
         <xml_view>false</xml_view>
@@ -8690,9 +8614,8 @@
             <value>Error</value>
         </sys_choice>
     </sys_choice>
-    <sys_hub_flow action="UPDATE">
+    <sys_hub_flow action="update">
         <sys_id>dfd8000d97ffd910f5be33271153af90</sys_id>
         <latest_snapshot>d9992a7897c82950f5be33271153af89</latest_snapshot>
-        <compiler_build>glide-tokyo-07-08-2022__patch6-hotfix1-02-01-2023_02-02-2023_0949.zip</compiler_build>
     </sys_hub_flow>
 </record_update>
